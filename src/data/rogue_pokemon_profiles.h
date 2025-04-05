@@ -2633,7 +2633,7 @@ static struct RoguePokemonCompetitiveSet const sCompetitiveSets_SPECIES_WEEDLE[]
 		.nature=NATURE_ADAMANT,
 		.moves=
 		{
-			MOVE_U-TURN,
+			MOVE_U_TURN,
 			MOVE_GUNK_SHOT,
 			MOVE_MEGAHORN,
 			MOVE_KNOCK_OFF,
@@ -2648,7 +2648,7 @@ static struct RoguePokemonCompetitiveSet const sCompetitiveSets_SPECIES_WEEDLE[]
 		.nature=NATURE_JOLLY,
 		.moves=
 		{
-			MOVE_U-TURN,
+			MOVE_U_TURN,
 			MOVE_GUNK_SHOT,
 			MOVE_PROTECT,
 			MOVE_KNOCK_OFF,
@@ -2687,7 +2687,7 @@ static struct RoguePokemonCompetitiveSet const sCompetitiveSets_SPECIES_KAKUNA[]
 		.nature=NATURE_ADAMANT,
 		.moves=
 		{
-			MOVE_U-TURN,
+			MOVE_U_TURN,
 			MOVE_GUNK_SHOT,
 			MOVE_MEGAHORN,
 			MOVE_KNOCK_OFF,
@@ -2702,7 +2702,7 @@ static struct RoguePokemonCompetitiveSet const sCompetitiveSets_SPECIES_KAKUNA[]
 		.nature=NATURE_JOLLY,
 		.moves=
 		{
-			MOVE_U-TURN,
+			MOVE_U_TURN,
 			MOVE_GUNK_SHOT,
 			MOVE_PROTECT,
 			MOVE_KNOCK_OFF,
@@ -2796,7 +2796,7 @@ static struct RoguePokemonCompetitiveSet const sCompetitiveSets_SPECIES_BEEDRILL
 		.nature=NATURE_ADAMANT,
 		.moves=
 		{
-			MOVE_U-TURN,
+			MOVE_U_TURN,
 			MOVE_GUNK_SHOT,
 			MOVE_MEGAHORN,
 			MOVE_KNOCK_OFF,
@@ -2811,7 +2811,7 @@ static struct RoguePokemonCompetitiveSet const sCompetitiveSets_SPECIES_BEEDRILL
 		.nature=NATURE_JOLLY,
 		.moves=
 		{
-			MOVE_U-TURN,
+			MOVE_U_TURN,
 			MOVE_GUNK_SHOT,
 			MOVE_PROTECT,
 			MOVE_KNOCK_OFF,
@@ -3154,7 +3154,7 @@ static struct RoguePokemonCompetitiveSet const sCompetitiveSets_SPECIES_RATTATA[
 			MOVE_POPULATION_BOMB,
 			MOVE_CRUNCH,
 			MOVE_HONE_CLAWS,
-			MOVE_U-TURN,
+			MOVE_U_TURN,
 		},
 	},
 	{
@@ -3264,7 +3264,7 @@ static struct RoguePokemonCompetitiveSet const sCompetitiveSets_SPECIES_RATICATE
 			MOVE_POPULATION_BOMB,
 			MOVE_CRUNCH,
 			MOVE_HONE_CLAWS,
-			MOVE_U-TURN,
+			MOVE_U_TURN,
 		},
 	},
 	{
@@ -3367,7 +3367,7 @@ static struct RoguePokemonCompetitiveSet const sCompetitiveSets_SPECIES_SPEAROW[
 			MOVE_HYPER_DRILL,
 			MOVE_DRILL_PECK,
 			MOVE_DRILL_RUN,
-			MOVE_U-TURN,
+			MOVE_U_TURN,
 		},
 	},
 };
@@ -3453,7 +3453,7 @@ static struct RoguePokemonCompetitiveSet const sCompetitiveSets_SPECIES_FEAROW[]
 			MOVE_HYPER_DRILL,
 			MOVE_DRILL_PECK,
 			MOVE_DRILL_RUN,
-			MOVE_U-TURN,
+			MOVE_U_TURN,
 		},
 	},
 };
@@ -6413,7 +6413,7 @@ static struct RoguePokemonCompetitiveSet const sCompetitiveSets_SPECIES_VULPIX[]
 			MOVE_FIRE_BLAST,
 			MOVE_HELPING_HAND,
 			MOVE_SCORCHING_SANDS,
-			MOVE_WILL-O-WISP,
+			MOVE_WILL_O_WISP,
 		},
 	},
 };
@@ -6511,7 +6511,7 @@ static struct RoguePokemonCompetitiveSet const sCompetitiveSets_SPECIES_NINETALE
 			MOVE_FIRE_BLAST,
 			MOVE_HELPING_HAND,
 			MOVE_SCORCHING_SANDS,
-			MOVE_WILL-O-WISP,
+			MOVE_WILL_O_WISP,
 		},
 	},
 };
@@ -10799,7 +10799,7 @@ static struct RoguePokemonCompetitiveSet const sCompetitiveSets_SPECIES_GEODUDE[
 	{
 		.flags= (0 | MON_FLAGS_GEN9VGCPRIDE),
 		.heldItem=ITEM_LIFE_ORB,
-		.ability=ABILITY_BALLIN',
+		.ability=ABILITY_BALLIN,
 		.hiddenPowerType=TYPE_NONE,
 		.teraType=TYPE_GHOST,
 		.nature=NATURE_ADAMANT,
@@ -10914,7 +10914,7 @@ static struct RoguePokemonCompetitiveSet const sCompetitiveSets_SPECIES_GRAVELER
 	{
 		.flags= (0 | MON_FLAGS_GEN9VGCPRIDE),
 		.heldItem=ITEM_LIFE_ORB,
-		.ability=ABILITY_BALLIN',
+		.ability=ABILITY_BALLIN,
 		.hiddenPowerType=TYPE_NONE,
 		.teraType=TYPE_GHOST,
 		.nature=NATURE_ADAMANT,
@@ -11033,7 +11033,7 @@ static struct RoguePokemonCompetitiveSet const sCompetitiveSets_SPECIES_GOLEM[] 
 	{
 		.flags= (0 | MON_FLAGS_GEN9VGCPRIDE),
 		.heldItem=ITEM_LIFE_ORB,
-		.ability=ABILITY_BALLIN',
+		.ability=ABILITY_BALLIN,
 		.hiddenPowerType=TYPE_NONE,
 		.teraType=TYPE_GHOST,
 		.nature=NATURE_ADAMANT,
@@ -13265,7 +13265,7 @@ static struct RoguePokemonCompetitiveSet const sCompetitiveSets_SPECIES_GASTLY[]
 		.nature=NATURE_TIMID,
 		.moves=
 		{
-			MOVE_G-MAX_TERROR,
+			MOVE_G_MAX_TERROR,
 			MOVE_FOCUS_BLAST,
 			MOVE_TAUNT,
 			MOVE_DESTINY_BOND,
@@ -13386,7 +13386,7 @@ static struct RoguePokemonCompetitiveSet const sCompetitiveSets_SPECIES_HAUNTER[
 		.nature=NATURE_TIMID,
 		.moves=
 		{
-			MOVE_G-MAX_TERROR,
+			MOVE_G_MAX_TERROR,
 			MOVE_FOCUS_BLAST,
 			MOVE_TAUNT,
 			MOVE_DESTINY_BOND,
@@ -13520,7 +13520,7 @@ static struct RoguePokemonCompetitiveSet const sCompetitiveSets_SPECIES_GENGAR[]
 		.nature=NATURE_TIMID,
 		.moves=
 		{
-			MOVE_G-MAX_TERROR,
+			MOVE_G_MAX_TERROR,
 			MOVE_FOCUS_BLAST,
 			MOVE_TAUNT,
 			MOVE_DESTINY_BOND,
@@ -15505,7 +15505,7 @@ static struct RoguePokemonCompetitiveSet const sCompetitiveSets_SPECIES_KOFFING[
 		{
 			MOVE_STRANGE_STEAM,
 			MOVE_TAUNT,
-			MOVE_WILL-O-WISP,
+			MOVE_WILL_O_WISP,
 			MOVE_DESTINY_BOND,
 		},
 	},
@@ -16201,7 +16201,7 @@ static struct RoguePokemonCompetitiveSet const sCompetitiveSets_SPECIES_CHANSEY[
 		{
 			MOVE_EXPLOSION,
 			MOVE_DRAIN_PUNCH,
-			MOVE_DOUBLE-EDGE,
+			MOVE_DOUBLE_EDGE,
 			MOVE_WILD_CHARGE,
 		},
 	},
@@ -16216,7 +16216,7 @@ static struct RoguePokemonCompetitiveSet const sCompetitiveSets_SPECIES_CHANSEY[
 		{
 			MOVE_EXPLOSION,
 			MOVE_DRAIN_PUNCH,
-			MOVE_DOUBLE-EDGE,
+			MOVE_DOUBLE_EDGE,
 			MOVE_WILD_CHARGE,
 		},
 	},
@@ -16427,7 +16427,7 @@ static struct RoguePokemonCompetitiveSet const sCompetitiveSets_SPECIES_KANGASKH
 		.moves=
 		{
 			MOVE_FAKE_OUT,
-			MOVE_POWER-UP_PUNCH,
+			MOVE_POWER_UP_PUNCH,
 			MOVE_RETURN,
 			MOVE_CRUNCH,
 		},
@@ -17250,7 +17250,7 @@ static struct RoguePokemonCompetitiveSet const sCompetitiveSets_SPECIES_SCYTHER[
 		.nature=NATURE_ADAMANT,
 		.moves=
 		{
-			MOVE_U-TURN,
+			MOVE_U_TURN,
 			MOVE_BULLET_PUNCH,
 			MOVE_CLOSE_COMBAT,
 			MOVE_HIDDEN_POWER_[STEEL],
@@ -18204,7 +18204,7 @@ static struct RoguePokemonCompetitiveSet const sCompetitiveSets_SPECIES_EEVEE[] 
 			MOVE_EXTREME_EVOBOOST,
 			MOVE_BATON_PASS,
 			MOVE_DETECT,
-			MOVE_DOUBLE-EDGE,
+			MOVE_DOUBLE_EDGE,
 		},
 	},
 };
@@ -19287,7 +19287,7 @@ static struct RoguePokemonCompetitiveSet const sCompetitiveSets_SPECIES_SNORLAX[
 		.moves=
 		{
 			MOVE_REST,
-			MOVE_G-MAX_REPLENISH,
+			MOVE_G_MAX_REPLENISH,
 			MOVE_BELLY_DRUM,
 			MOVE_EARTHQUAKE,
 		},
@@ -19574,7 +19574,7 @@ static struct RoguePokemonCompetitiveSet const sCompetitiveSets_SPECIES_MOLTRES[
 		{
 			MOVE_HEAT_WAVE,
 			MOVE_SPRINGTIDE_STORM,
-			MOVE_WILL-O-WISP,
+			MOVE_WILL_O_WISP,
 			MOVE_TAILWIND,
 		},
 	},
@@ -21643,7 +21643,7 @@ static struct RoguePokemonCompetitiveSet const sCompetitiveSets_SPECIES_SENTRET[
 			MOVE_GIGA_IMPACT,
 			MOVE_RETURN,
 			MOVE_KNOCK_OFF,
-			MOVE_U-TURN,
+			MOVE_U_TURN,
 		},
 	},
 };
@@ -21768,7 +21768,7 @@ static struct RoguePokemonCompetitiveSet const sCompetitiveSets_SPECIES_FURRET[]
 			MOVE_GIGA_IMPACT,
 			MOVE_RETURN,
 			MOVE_KNOCK_OFF,
-			MOVE_U-TURN,
+			MOVE_U_TURN,
 		},
 	},
 };
@@ -26330,7 +26330,7 @@ static struct RoguePokemonCompetitiveSet const sCompetitiveSets_SPECIES_MISDREAV
 			MOVE_DAZZLING_GLEAM,
 			MOVE_DESTINY_BOND,
 			MOVE_SHADOW_BALL,
-			MOVE_WILL-O-WISP,
+			MOVE_WILL_O_WISP,
 		},
 	},
 };
@@ -27927,7 +27927,7 @@ static struct RoguePokemonCompetitiveSet const sCompetitiveSets_SPECIES_SCIZOR[]
 		.nature=NATURE_ADAMANT,
 		.moves=
 		{
-			MOVE_U-TURN,
+			MOVE_U_TURN,
 			MOVE_BULLET_PUNCH,
 			MOVE_CLOSE_COMBAT,
 			MOVE_HIDDEN_POWER_[STEEL],
@@ -29784,7 +29784,7 @@ static struct RoguePokemonCompetitiveSet const sCompetitiveSets_SPECIES_HOUNDOUR
 		.nature=NATURE_TIMID,
 		.moves=
 		{
-			MOVE_WILL-O-WISP,
+			MOVE_WILL_O_WISP,
 			MOVE_DARK_PULSE,
 			MOVE_PROTECT,
 			MOVE_OVERHEAT,
@@ -29906,7 +29906,7 @@ static struct RoguePokemonCompetitiveSet const sCompetitiveSets_SPECIES_HOUNDOOM
 		.nature=NATURE_TIMID,
 		.moves=
 		{
-			MOVE_WILL-O-WISP,
+			MOVE_WILL_O_WISP,
 			MOVE_DARK_PULSE,
 			MOVE_PROTECT,
 			MOVE_OVERHEAT,
@@ -31195,7 +31195,7 @@ static struct RoguePokemonCompetitiveSet const sCompetitiveSets_SPECIES_MILTANK[
 		{
 			MOVE_RETURN,
 			MOVE_MILK_DRINK,
-			MOVE_POWER-UP_PUNCH,
+			MOVE_POWER_UP_PUNCH,
 			MOVE_HIGH_HORSEPOWER,
 		},
 	},
@@ -31327,7 +31327,7 @@ static struct RoguePokemonCompetitiveSet const sCompetitiveSets_SPECIES_BLISSEY[
 		{
 			MOVE_EXPLOSION,
 			MOVE_DRAIN_PUNCH,
-			MOVE_DOUBLE-EDGE,
+			MOVE_DOUBLE_EDGE,
 			MOVE_WILD_CHARGE,
 		},
 	},
@@ -31342,7 +31342,7 @@ static struct RoguePokemonCompetitiveSet const sCompetitiveSets_SPECIES_BLISSEY[
 		{
 			MOVE_EXPLOSION,
 			MOVE_DRAIN_PUNCH,
-			MOVE_DOUBLE-EDGE,
+			MOVE_DOUBLE_EDGE,
 			MOVE_WILD_CHARGE,
 		},
 	},
@@ -36369,7 +36369,7 @@ static struct RoguePokemonCompetitiveSet const sCompetitiveSets_SPECIES_NINCADA[
 		.nature=NATURE_LONELY,
 		.moves=
 		{
-			MOVE_U-TURN,
+			MOVE_U_TURN,
 			MOVE_DIVE_BOMB,
 			MOVE_FINAL_GAMBIT,
 			MOVE_TERA_BLAST,
@@ -36473,7 +36473,7 @@ static struct RoguePokemonCompetitiveSet const sCompetitiveSets_SPECIES_NINJASK[
 		.nature=NATURE_LONELY,
 		.moves=
 		{
-			MOVE_U-TURN,
+			MOVE_U_TURN,
 			MOVE_DIVE_BOMB,
 			MOVE_FINAL_GAMBIT,
 			MOVE_TERA_BLAST,
@@ -36578,7 +36578,7 @@ static struct RoguePokemonCompetitiveSet const sCompetitiveSets_SPECIES_SHEDINJA
 			MOVE_SWORDS_DANCE,
 			MOVE_PROTECT,
 			MOVE_SHADOW_SNEAK,
-			MOVE_X-SCISSOR,
+			MOVE_X_SCISSOR,
 		},
 	},
 };
@@ -37609,7 +37609,7 @@ static struct RoguePokemonCompetitiveSet const sCompetitiveSets_SPECIES_SABLEYE[
 			MOVE_QUASH,
 			MOVE_KNOCK_OFF,
 			MOVE_ENCORE,
-			MOVE_WILL-O-WISP,
+			MOVE_WILL_O_WISP,
 		},
 	},
 };
@@ -39514,7 +39514,7 @@ static struct RoguePokemonCompetitiveSet const sCompetitiveSets_SPECIES_WAILMER[
 		{
 			MOVE_WATER_SPOUT,
 			MOVE_ICE_BEAM,
-			MOVE_SELF-DESTRUCT,
+			MOVE_SELF_DESTRUCT,
 			MOVE_SURF,
 		},
 	},
@@ -39610,7 +39610,7 @@ static struct RoguePokemonCompetitiveSet const sCompetitiveSets_SPECIES_WAILORD[
 		{
 			MOVE_WATER_SPOUT,
 			MOVE_ICE_BEAM,
-			MOVE_SELF-DESTRUCT,
+			MOVE_SELF_DESTRUCT,
 			MOVE_SURF,
 		},
 	},
@@ -43066,7 +43066,7 @@ static struct RoguePokemonCompetitiveSet const sCompetitiveSets_SPECIES_SHUPPET[
 			MOVE_KNOCK_OFF,
 			MOVE_POLTERGEIST,
 			MOVE_DESTINY_BOND,
-			MOVE_WILL-O-WISP,
+			MOVE_WILL_O_WISP,
 		},
 	},
 };
@@ -43171,7 +43171,7 @@ static struct RoguePokemonCompetitiveSet const sCompetitiveSets_SPECIES_BANETTE[
 			MOVE_KNOCK_OFF,
 			MOVE_POLTERGEIST,
 			MOVE_DESTINY_BOND,
-			MOVE_WILL-O-WISP,
+			MOVE_WILL_O_WISP,
 		},
 	},
 };
@@ -43260,7 +43260,7 @@ static struct RoguePokemonCompetitiveSet const sCompetitiveSets_SPECIES_DUSKULL[
 		.moves=
 		{
 			MOVE_TRICK_ROOM,
-			MOVE_WILL-O-WISP,
+			MOVE_WILL_O_WISP,
 			MOVE_HELPING_HAND,
 			MOVE_NIGHT_SHADE,
 		},
@@ -43367,7 +43367,7 @@ static struct RoguePokemonCompetitiveSet const sCompetitiveSets_SPECIES_DUSCLOPS
 		.moves=
 		{
 			MOVE_TRICK_ROOM,
-			MOVE_WILL-O-WISP,
+			MOVE_WILL_O_WISP,
 			MOVE_HELPING_HAND,
 			MOVE_NIGHT_SHADE,
 		},
@@ -44047,7 +44047,7 @@ static struct RoguePokemonCompetitiveSet const sCompetitiveSets_SPECIES_SPHEAL[]
 	{
 		.flags= (0 | MON_FLAGS_GEN9VGCPRIDE),
 		.heldItem=ITEM_LEFTOVERS,
-		.ability=ABILITY_REGAL_MAJESTY,
+		.ability=ABILITY_QUEENLY_MAJESTY,
 		.hiddenPowerType=TYPE_NONE,
 		.teraType=TYPE_FLYING,
 		.nature=NATURE_CAREFUL,
@@ -44062,7 +44062,7 @@ static struct RoguePokemonCompetitiveSet const sCompetitiveSets_SPECIES_SPHEAL[]
 	{
 		.flags= (0 | MON_FLAGS_GEN9VGCPRIDE),
 		.heldItem=ITEM_LEFTOVERS,
-		.ability=ABILITY_REGAL_MAJESTY,
+		.ability=ABILITY_QUEENLY_MAJESTY,
 		.hiddenPowerType=TYPE_NONE,
 		.teraType=TYPE_GRASS,
 		.nature=NATURE_CAREFUL,
@@ -44148,7 +44148,7 @@ static struct RoguePokemonCompetitiveSet const sCompetitiveSets_SPECIES_SEALEO[]
 	{
 		.flags= (0 | MON_FLAGS_GEN9VGCPRIDE),
 		.heldItem=ITEM_LEFTOVERS,
-		.ability=ABILITY_REGAL_MAJESTY,
+		.ability=ABILITY_QUEENLY_MAJESTY,
 		.hiddenPowerType=TYPE_NONE,
 		.teraType=TYPE_FLYING,
 		.nature=NATURE_CAREFUL,
@@ -44163,7 +44163,7 @@ static struct RoguePokemonCompetitiveSet const sCompetitiveSets_SPECIES_SEALEO[]
 	{
 		.flags= (0 | MON_FLAGS_GEN9VGCPRIDE),
 		.heldItem=ITEM_LEFTOVERS,
-		.ability=ABILITY_REGAL_MAJESTY,
+		.ability=ABILITY_QUEENLY_MAJESTY,
 		.hiddenPowerType=TYPE_NONE,
 		.teraType=TYPE_GRASS,
 		.nature=NATURE_CAREFUL,
@@ -44265,7 +44265,7 @@ static struct RoguePokemonCompetitiveSet const sCompetitiveSets_SPECIES_WALREIN[
 	{
 		.flags= (0 | MON_FLAGS_GEN9VGCPRIDE),
 		.heldItem=ITEM_LEFTOVERS,
-		.ability=ABILITY_REGAL_MAJESTY,
+		.ability=ABILITY_QUEENLY_MAJESTY,
 		.hiddenPowerType=TYPE_NONE,
 		.teraType=TYPE_FLYING,
 		.nature=NATURE_CAREFUL,
@@ -44280,7 +44280,7 @@ static struct RoguePokemonCompetitiveSet const sCompetitiveSets_SPECIES_WALREIN[
 	{
 		.flags= (0 | MON_FLAGS_GEN9VGCPRIDE),
 		.heldItem=ITEM_LEFTOVERS,
-		.ability=ABILITY_REGAL_MAJESTY,
+		.ability=ABILITY_QUEENLY_MAJESTY,
 		.hiddenPowerType=TYPE_NONE,
 		.teraType=TYPE_GRASS,
 		.nature=NATURE_CAREFUL,
@@ -44720,7 +44720,7 @@ static struct RoguePokemonCompetitiveSet const sCompetitiveSets_SPECIES_LUVDISC[
 	{
 		.flags= (0 | MON_FLAGS_GEN9VGCPRIDE),
 		.heldItem=ITEM_PIXIE_PLATE,
-		.ability=ABILITY_SOUL-HEART,
+		.ability=ABILITY_SOUL_HEART,
 		.hiddenPowerType=TYPE_NONE,
 		.teraType=TYPE_FAIRY,
 		.nature=NATURE_TIMID,
@@ -46260,7 +46260,7 @@ static struct RoguePokemonCompetitiveSet const sCompetitiveSets_SPECIES_RAYQUAZA
 			MOVE_DRAGON_DANCE,
 			MOVE_EXTREME_SPEED,
 			MOVE_DRAGON_ASCENT,
-			MOVE_V-CREATE,
+			MOVE_V_CREATE,
 		},
 	},
 	{
@@ -46274,7 +46274,7 @@ static struct RoguePokemonCompetitiveSet const sCompetitiveSets_SPECIES_RAYQUAZA
 		{
 			MOVE_DRACO_METEOR,
 			MOVE_EXTREME_SPEED,
-			MOVE_V-CREATE,
+			MOVE_V_CREATE,
 			MOVE_DRAGON_ASCENT,
 		},
 	},
@@ -46403,7 +46403,7 @@ static struct RoguePokemonCompetitiveSet const sCompetitiveSets_SPECIES_JIRACHI[
 			MOVE_IRON_HEAD,
 			MOVE_BODY_SLAM,
 			MOVE_FIRE_PUNCH,
-			MOVE_U-TURN,
+			MOVE_U_TURN,
 		},
 	},
 };
@@ -47646,7 +47646,7 @@ static struct RoguePokemonCompetitiveSet const sCompetitiveSets_SPECIES_STARLY[]
 			MOVE_FINAL_GAMBIT,
 			MOVE_CLOSE_COMBAT,
 			MOVE_DIVE_BOMB,
-			MOVE_U-TURN,
+			MOVE_U_TURN,
 		},
 	},
 	{
@@ -47658,10 +47658,10 @@ static struct RoguePokemonCompetitiveSet const sCompetitiveSets_SPECIES_STARLY[]
 		.nature=NATURE_JOLLY,
 		.moves=
 		{
-			MOVE_DOUBLE-EDGE,
+			MOVE_DOUBLE_EDGE,
 			MOVE_CLOSE_COMBAT,
 			MOVE_BRAVE_BIRD,
-			MOVE_U-TURN,
+			MOVE_U_TURN,
 		},
 	},
 };
@@ -47738,7 +47738,7 @@ static struct RoguePokemonCompetitiveSet const sCompetitiveSets_SPECIES_STARAVIA
 			MOVE_FINAL_GAMBIT,
 			MOVE_CLOSE_COMBAT,
 			MOVE_DIVE_BOMB,
-			MOVE_U-TURN,
+			MOVE_U_TURN,
 		},
 	},
 	{
@@ -47750,10 +47750,10 @@ static struct RoguePokemonCompetitiveSet const sCompetitiveSets_SPECIES_STARAVIA
 		.nature=NATURE_JOLLY,
 		.moves=
 		{
-			MOVE_DOUBLE-EDGE,
+			MOVE_DOUBLE_EDGE,
 			MOVE_CLOSE_COMBAT,
 			MOVE_BRAVE_BIRD,
-			MOVE_U-TURN,
+			MOVE_U_TURN,
 		},
 	},
 };
@@ -47837,7 +47837,7 @@ static struct RoguePokemonCompetitiveSet const sCompetitiveSets_SPECIES_STARAPTO
 			MOVE_FINAL_GAMBIT,
 			MOVE_CLOSE_COMBAT,
 			MOVE_DIVE_BOMB,
-			MOVE_U-TURN,
+			MOVE_U_TURN,
 		},
 	},
 	{
@@ -47849,10 +47849,10 @@ static struct RoguePokemonCompetitiveSet const sCompetitiveSets_SPECIES_STARAPTO
 		.nature=NATURE_JOLLY,
 		.moves=
 		{
-			MOVE_DOUBLE-EDGE,
+			MOVE_DOUBLE_EDGE,
 			MOVE_CLOSE_COMBAT,
 			MOVE_BRAVE_BIRD,
-			MOVE_U-TURN,
+			MOVE_U_TURN,
 		},
 	},
 };
@@ -48782,7 +48782,7 @@ static struct RoguePokemonCompetitiveSet const sCompetitiveSets_SPECIES_CRANIDOS
 		{
 			MOVE_HEAD_SMASH,
 			MOVE_FLARE_BLITZ,
-			MOVE_DOUBLE-EDGE,
+			MOVE_DOUBLE_EDGE,
 			MOVE_SUPERPOWER,
 		},
 	},
@@ -48897,7 +48897,7 @@ static struct RoguePokemonCompetitiveSet const sCompetitiveSets_SPECIES_RAMPARDO
 		{
 			MOVE_HEAD_SMASH,
 			MOVE_FLARE_BLITZ,
-			MOVE_DOUBLE-EDGE,
+			MOVE_DOUBLE_EDGE,
 			MOVE_SUPERPOWER,
 		},
 	},
@@ -49357,7 +49357,7 @@ static struct RoguePokemonCompetitiveSet const sCompetitiveSets_SPECIES_MOTHIM[]
 			MOVE_AEROBLAST,
 			MOVE_BUG_BUZZ,
 			MOVE_HIDDEN_POWER_[GROUND],
-			MOVE_U-TURN,
+			MOVE_U_TURN,
 		},
 	},
 };
@@ -49643,7 +49643,7 @@ static struct RoguePokemonCompetitiveSet const sCompetitiveSets_SPECIES_PACHIRIS
 			MOVE_NUZZLE,
 			MOVE_FOLLOW_ME,
 			MOVE_PLAY_ROUGH,
-			MOVE_BABY-DOLL_EYES,
+			MOVE_BABY_DOLL_EYES,
 		},
 	},
 };
@@ -50415,7 +50415,7 @@ static struct RoguePokemonCompetitiveSet const sCompetitiveSets_SPECIES_DRIFLOON
 		.nature=NATURE_TIMID,
 		.moves=
 		{
-			MOVE_WILL-O-WISP,
+			MOVE_WILL_O_WISP,
 			MOVE_TAILWIND,
 			MOVE_THUNDERBOLT,
 			MOVE_BLEAKWIND_STORM,
@@ -50433,7 +50433,7 @@ static struct RoguePokemonCompetitiveSet const sCompetitiveSets_SPECIES_DRIFLOON
 			MOVE_BLEAKWIND_STORM,
 			MOVE_SHADOW_BALL,
 			MOVE_TAILWIND,
-			MOVE_WILL-O-WISP,
+			MOVE_WILL_O_WISP,
 		},
 	},
 };
@@ -50534,7 +50534,7 @@ static struct RoguePokemonCompetitiveSet const sCompetitiveSets_SPECIES_DRIFBLIM
 		.nature=NATURE_TIMID,
 		.moves=
 		{
-			MOVE_WILL-O-WISP,
+			MOVE_WILL_O_WISP,
 			MOVE_TAILWIND,
 			MOVE_THUNDERBOLT,
 			MOVE_BLEAKWIND_STORM,
@@ -50552,7 +50552,7 @@ static struct RoguePokemonCompetitiveSet const sCompetitiveSets_SPECIES_DRIFBLIM
 			MOVE_BLEAKWIND_STORM,
 			MOVE_SHADOW_BALL,
 			MOVE_TAILWIND,
-			MOVE_WILL-O-WISP,
+			MOVE_WILL_O_WISP,
 		},
 	},
 };
@@ -50655,7 +50655,7 @@ static struct RoguePokemonCompetitiveSet const sCompetitiveSets_SPECIES_BUNEARY[
 		.nature=NATURE_JOLLY,
 		.moves=
 		{
-			MOVE_U-TURN,
+			MOVE_U_TURN,
 			MOVE_FAKE_OUT,
 			MOVE_TRIPLE_AXEL,
 			MOVE_HIGH_JUMP_KICK,
@@ -50769,7 +50769,7 @@ static struct RoguePokemonCompetitiveSet const sCompetitiveSets_SPECIES_LOPUNNY[
 		.nature=NATURE_JOLLY,
 		.moves=
 		{
-			MOVE_U-TURN,
+			MOVE_U_TURN,
 			MOVE_FAKE_OUT,
 			MOVE_TRIPLE_AXEL,
 			MOVE_HIGH_JUMP_KICK,
@@ -50874,7 +50874,7 @@ static struct RoguePokemonCompetitiveSet const sCompetitiveSets_SPECIES_MISMAGIU
 			MOVE_DAZZLING_GLEAM,
 			MOVE_DESTINY_BOND,
 			MOVE_SHADOW_BALL,
-			MOVE_WILL-O-WISP,
+			MOVE_WILL_O_WISP,
 		},
 	},
 };
@@ -52028,7 +52028,7 @@ static struct RoguePokemonCompetitiveSet const sCompetitiveSets_SPECIES_HAPPINY[
 		{
 			MOVE_EXPLOSION,
 			MOVE_DRAIN_PUNCH,
-			MOVE_DOUBLE-EDGE,
+			MOVE_DOUBLE_EDGE,
 			MOVE_WILD_CHARGE,
 		},
 	},
@@ -52043,7 +52043,7 @@ static struct RoguePokemonCompetitiveSet const sCompetitiveSets_SPECIES_HAPPINY[
 		{
 			MOVE_EXPLOSION,
 			MOVE_DRAIN_PUNCH,
-			MOVE_DOUBLE-EDGE,
+			MOVE_DOUBLE_EDGE,
 			MOVE_WILD_CHARGE,
 		},
 	},
@@ -52232,7 +52232,7 @@ static struct RoguePokemonCompetitiveSet const sCompetitiveSets_SPECIES_SPIRITOM
 		.nature=NATURE_SASSY,
 		.moves=
 		{
-			MOVE_WILL-O-WISP,
+			MOVE_WILL_O_WISP,
 			MOVE_MEMENTO,
 			MOVE_TAUNT,
 			MOVE_POLTERGEIST,
@@ -52638,7 +52638,7 @@ static struct RoguePokemonCompetitiveSet const sCompetitiveSets_SPECIES_MUNCHLAX
 		.moves=
 		{
 			MOVE_REST,
-			MOVE_G-MAX_REPLENISH,
+			MOVE_G_MAX_REPLENISH,
 			MOVE_BELLY_DRUM,
 			MOVE_EARTHQUAKE,
 		},
@@ -55376,7 +55376,7 @@ static struct RoguePokemonCompetitiveSet const sCompetitiveSets_SPECIES_GLACEON[
 {
 	{
 		.flags= (0 | MON_FLAGS_GEN9VGCPRIDE),
-		.heldItem=ITEM_NEVER-MELT_ICE,
+		.heldItem=ITEM_NEVER_MELT_ICE,
 		.ability=ABILITY_SLUSH_RUSH,
 		.hiddenPowerType=TYPE_NONE,
 		.teraType=TYPE_GROUND,
@@ -55384,7 +55384,7 @@ static struct RoguePokemonCompetitiveSet const sCompetitiveSets_SPECIES_GLACEON[
 		.moves=
 		{
 			MOVE_BLIZZARD,
-			MOVE_FREEZE-DRY,
+			MOVE_FREEZE_DRY,
 			MOVE_FLASH_FREEZE,
 			MOVE_MUD_SHOT,
 		},
@@ -56110,7 +56110,7 @@ static struct RoguePokemonCompetitiveSet const sCompetitiveSets_SPECIES_DUSKNOIR
 		.moves=
 		{
 			MOVE_SHADOW_PUNCH,
-			MOVE_POWER-UP_PUNCH,
+			MOVE_POWER_UP_PUNCH,
 			MOVE_THUNDER_PUNCH,
 			MOVE_PROTECT,
 		},
@@ -56241,7 +56241,7 @@ static struct RoguePokemonCompetitiveSet const sCompetitiveSets_SPECIES_FROSLASS
 		.moves=
 		{
 			MOVE_FLASH_FREEZE,
-			MOVE_WILL-O-WISP,
+			MOVE_WILL_O_WISP,
 			MOVE_DESTINY_BOND,
 			MOVE_SHADOW_BALL,
 		},
@@ -56361,7 +56361,7 @@ static struct RoguePokemonCompetitiveSet const sCompetitiveSets_SPECIES_ROTOM[] 
 		{
 			MOVE_ELECTROWEB,
 			MOVE_EERIE_IMPULSE,
-			MOVE_WILL-O-WISP,
+			MOVE_WILL_O_WISP,
 			MOVE_HEX,
 		},
 	},
@@ -56487,7 +56487,7 @@ static struct RoguePokemonCompetitiveSet const sCompetitiveSets_SPECIES_UXIE[] =
 		{
 			MOVE_MYSTICAL_POWER,
 			MOVE_TRICK_ROOM,
-			MOVE_U-TURN,
+			MOVE_U_TURN,
 			MOVE_YAWN,
 		},
 	},
@@ -56706,7 +56706,7 @@ static struct RoguePokemonCompetitiveSet const sCompetitiveSets_SPECIES_AZELF[] 
 		.moves=
 		{
 			MOVE_EXPLOSION,
-			MOVE_U-TURN,
+			MOVE_U_TURN,
 			MOVE_PLAY_ROUGH,
 			MOVE_KNOCK_OFF,
 		},
@@ -57305,7 +57305,7 @@ static struct RoguePokemonCompetitiveSet const sCompetitiveSets_SPECIES_GIRATINA
 		.nature=NATURE_CAREFUL,
 		.moves=
 		{
-			MOVE_WILL-O-WISP,
+			MOVE_WILL_O_WISP,
 			MOVE_POLTERGEIST,
 			MOVE_BREAKING_SWIPE,
 			MOVE_PROTECT,
@@ -57323,7 +57323,7 @@ static struct RoguePokemonCompetitiveSet const sCompetitiveSets_SPECIES_GIRATINA
 			MOVE_SHADOW_FORCE,
 			MOVE_OUTRAGE,
 			MOVE_PROTECT,
-			MOVE_WILL-O-WISP,
+			MOVE_WILL_O_WISP,
 		},
 	},
 };
@@ -58307,9 +58307,9 @@ static struct RoguePokemonCompetitiveSet const sCompetitiveSets_SPECIES_VICTINI[
 		.nature=NATURE_JOLLY,
 		.moves=
 		{
-			MOVE_V-CREATE,
+			MOVE_V_CREATE,
 			MOVE_BOLT_STRIKE,
-			MOVE_WILL-O-WISP,
+			MOVE_WILL_O_WISP,
 			MOVE_VEEVEE_VOLLEY,
 		},
 	},
@@ -58324,7 +58324,7 @@ static struct RoguePokemonCompetitiveSet const sCompetitiveSets_SPECIES_VICTINI[
 		{
 			MOVE_VICTORY_DANCE,
 			MOVE_BOLT_STRIKE,
-			MOVE_V-CREATE,
+			MOVE_V_CREATE,
 			MOVE_BATON_PASS,
 		},
 	},
@@ -63016,7 +63016,7 @@ static struct RoguePokemonCompetitiveSet const sCompetitiveSets_SPECIES_SEWADDLE
 		.moves=
 		{
 			MOVE_LEAF_BLADE,
-			MOVE_X-SCISSOR,
+			MOVE_X_SCISSOR,
 			MOVE_SLASH,
 			MOVE_PROTECT,
 		},
@@ -63097,7 +63097,7 @@ static struct RoguePokemonCompetitiveSet const sCompetitiveSets_SPECIES_SWADLOON
 		.moves=
 		{
 			MOVE_LEAF_BLADE,
-			MOVE_X-SCISSOR,
+			MOVE_X_SCISSOR,
 			MOVE_SLASH,
 			MOVE_PROTECT,
 		},
@@ -63201,7 +63201,7 @@ static struct RoguePokemonCompetitiveSet const sCompetitiveSets_SPECIES_LEAVANNY
 		.moves=
 		{
 			MOVE_LEAF_BLADE,
-			MOVE_X-SCISSOR,
+			MOVE_X_SCISSOR,
 			MOVE_SLASH,
 			MOVE_PROTECT,
 		},
@@ -65135,7 +65135,7 @@ static struct RoguePokemonCompetitiveSet const sCompetitiveSets_SPECIES_DWEBBLE[
 		{
 			MOVE_ROCK_SLIDE,
 			MOVE_ROCK_WRECKER,
-			MOVE_X-SCISSOR,
+			MOVE_X_SCISSOR,
 			MOVE_SHELL_SMASH,
 		},
 	},
@@ -65223,7 +65223,7 @@ static struct RoguePokemonCompetitiveSet const sCompetitiveSets_SPECIES_CRUSTLE[
 		{
 			MOVE_ROCK_SLIDE,
 			MOVE_ROCK_WRECKER,
-			MOVE_X-SCISSOR,
+			MOVE_X_SCISSOR,
 			MOVE_SHELL_SMASH,
 		},
 	},
@@ -65664,7 +65664,7 @@ static struct RoguePokemonCompetitiveSet const sCompetitiveSets_SPECIES_YAMASK[]
 		.nature=NATURE_SASSY,
 		.moves=
 		{
-			MOVE_WILL-O-WISP,
+			MOVE_WILL_O_WISP,
 			MOVE_TRICK_ROOM,
 			MOVE_HAZE,
 			MOVE_HEX,
@@ -65763,7 +65763,7 @@ static struct RoguePokemonCompetitiveSet const sCompetitiveSets_SPECIES_COFAGRIG
 		.nature=NATURE_SASSY,
 		.moves=
 		{
-			MOVE_WILL-O-WISP,
+			MOVE_WILL_O_WISP,
 			MOVE_TRICK_ROOM,
 			MOVE_HAZE,
 			MOVE_HEX,
@@ -66255,7 +66255,7 @@ static struct RoguePokemonCompetitiveSet const sCompetitiveSets_SPECIES_TRUBBISH
 		.nature=NATURE_IMPISH,
 		.moves=
 		{
-			MOVE_G-MAX_MALODOR,
+			MOVE_G_MAX_MALODOR,
 			MOVE_INFESTATION,
 			MOVE_CORROSIVE_GAS,
 			MOVE_CLEAR_SMOG,
@@ -66351,7 +66351,7 @@ static struct RoguePokemonCompetitiveSet const sCompetitiveSets_SPECIES_GARBODOR
 		.nature=NATURE_IMPISH,
 		.moves=
 		{
-			MOVE_G-MAX_MALODOR,
+			MOVE_G_MAX_MALODOR,
 			MOVE_INFESTATION,
 			MOVE_CORROSIVE_GAS,
 			MOVE_CLEAR_SMOG,
@@ -70010,7 +70010,7 @@ static struct RoguePokemonCompetitiveSet const sCompetitiveSets_SPECIES_LITWICK[
 		.nature=NATURE_TIMID,
 		.moves=
 		{
-			MOVE_G-MAX_TERROR,
+			MOVE_G_MAX_TERROR,
 			MOVE_FIRE_BLAST,
 			MOVE_TRICK_ROOM,
 			MOVE_PROTECT,
@@ -70025,7 +70025,7 @@ static struct RoguePokemonCompetitiveSet const sCompetitiveSets_SPECIES_LITWICK[
 		.nature=NATURE_TIMID,
 		.moves=
 		{
-			MOVE_G-MAX_TERROR,
+			MOVE_G_MAX_TERROR,
 			MOVE_OVERHEAT,
 			MOVE_ENERGY_BALL,
 			MOVE_HEAT_WAVE,
@@ -70120,7 +70120,7 @@ static struct RoguePokemonCompetitiveSet const sCompetitiveSets_SPECIES_LAMPENT[
 		.nature=NATURE_TIMID,
 		.moves=
 		{
-			MOVE_G-MAX_TERROR,
+			MOVE_G_MAX_TERROR,
 			MOVE_FIRE_BLAST,
 			MOVE_TRICK_ROOM,
 			MOVE_PROTECT,
@@ -70135,7 +70135,7 @@ static struct RoguePokemonCompetitiveSet const sCompetitiveSets_SPECIES_LAMPENT[
 		.nature=NATURE_TIMID,
 		.moves=
 		{
-			MOVE_G-MAX_TERROR,
+			MOVE_G_MAX_TERROR,
 			MOVE_OVERHEAT,
 			MOVE_ENERGY_BALL,
 			MOVE_HEAT_WAVE,
@@ -70234,7 +70234,7 @@ static struct RoguePokemonCompetitiveSet const sCompetitiveSets_SPECIES_CHANDELU
 		.nature=NATURE_TIMID,
 		.moves=
 		{
-			MOVE_G-MAX_TERROR,
+			MOVE_G_MAX_TERROR,
 			MOVE_FIRE_BLAST,
 			MOVE_TRICK_ROOM,
 			MOVE_PROTECT,
@@ -70249,7 +70249,7 @@ static struct RoguePokemonCompetitiveSet const sCompetitiveSets_SPECIES_CHANDELU
 		.nature=NATURE_TIMID,
 		.moves=
 		{
-			MOVE_G-MAX_TERROR,
+			MOVE_G_MAX_TERROR,
 			MOVE_OVERHEAT,
 			MOVE_ENERGY_BALL,
 			MOVE_HEAT_WAVE,
@@ -70960,7 +70960,7 @@ static struct RoguePokemonCompetitiveSet const sCompetitiveSets_SPECIES_SHELMET[
 		{
 			MOVE_FAKE_OUT,
 			MOVE_PARTING_SHOT,
-			MOVE_U-TURN,
+			MOVE_U_TURN,
 			MOVE_SUCKER_PUNCH,
 		},
 	},
@@ -71067,7 +71067,7 @@ static struct RoguePokemonCompetitiveSet const sCompetitiveSets_SPECIES_ACCELGOR
 		{
 			MOVE_FAKE_OUT,
 			MOVE_PARTING_SHOT,
-			MOVE_U-TURN,
+			MOVE_U_TURN,
 			MOVE_SUCKER_PUNCH,
 		},
 	},
@@ -72597,7 +72597,7 @@ static struct RoguePokemonCompetitiveSet const sCompetitiveSets_SPECIES_VULLABY[
 		{
 			MOVE_ROOST,
 			MOVE_KNOCK_OFF,
-			MOVE_U-TURN,
+			MOVE_U_TURN,
 			MOVE_TAILWIND,
 		},
 	},
@@ -72712,7 +72712,7 @@ static struct RoguePokemonCompetitiveSet const sCompetitiveSets_SPECIES_MANDIBUZ
 		{
 			MOVE_ROOST,
 			MOVE_KNOCK_OFF,
-			MOVE_U-TURN,
+			MOVE_U_TURN,
 			MOVE_TAILWIND,
 		},
 	},
@@ -72919,7 +72919,7 @@ static struct RoguePokemonCompetitiveSet const sCompetitiveSets_SPECIES_DURANT[]
 		{
 			MOVE_FIRST_IMPRESSION,
 			MOVE_METAL_BURST,
-			MOVE_X-SCISSOR,
+			MOVE_X_SCISSOR,
 			MOVE_IRON_HEAD,
 		},
 	},
@@ -72934,7 +72934,7 @@ static struct RoguePokemonCompetitiveSet const sCompetitiveSets_SPECIES_DURANT[]
 		{
 			MOVE_ENTRAINMENT,
 			MOVE_IRON_HEAD,
-			MOVE_X-SCISSOR,
+			MOVE_X_SCISSOR,
 			MOVE_ENDEAVOR,
 		},
 	},
@@ -73389,7 +73389,7 @@ static struct RoguePokemonCompetitiveSet const sCompetitiveSets_SPECIES_LARVESTA
 		{
 			MOVE_OVERHEAT,
 			MOVE_RAGE_POWDER,
-			MOVE_WILL-O-WISP,
+			MOVE_WILL_O_WISP,
 			MOVE_MORNING_SUN,
 		},
 	},
@@ -73511,7 +73511,7 @@ static struct RoguePokemonCompetitiveSet const sCompetitiveSets_SPECIES_VOLCARON
 		{
 			MOVE_OVERHEAT,
 			MOVE_RAGE_POWDER,
-			MOVE_WILL-O-WISP,
+			MOVE_WILL_O_WISP,
 			MOVE_MORNING_SUN,
 		},
 	},
@@ -74165,7 +74165,7 @@ static struct RoguePokemonCompetitiveSet const sCompetitiveSets_SPECIES_RESHIRAM
 		{
 			MOVE_BLUE_FLARE,
 			MOVE_TAILWIND,
-			MOVE_WILL-O-WISP,
+			MOVE_WILL_O_WISP,
 			MOVE_PROTECT,
 		},
 	},
@@ -75536,7 +75536,7 @@ static struct RoguePokemonCompetitiveSet const sCompetitiveSets_SPECIES_GENESECT
 		.nature=NATURE_JOLLY,
 		.moves=
 		{
-			MOVE_U-TURN,
+			MOVE_U_TURN,
 			MOVE_EXTREME_SPEED,
 			MOVE_EXPLOSION,
 			MOVE_IRON_HEAD,
@@ -75551,7 +75551,7 @@ static struct RoguePokemonCompetitiveSet const sCompetitiveSets_SPECIES_GENESECT
 		.nature=NATURE_NAIVE,
 		.moves=
 		{
-			MOVE_U-TURN,
+			MOVE_U_TURN,
 			MOVE_FLAMETHROWER,
 			MOVE_FLASH_CANNON,
 			MOVE_PROTECT,
@@ -76653,7 +76653,7 @@ static struct RoguePokemonCompetitiveSet const sCompetitiveSets_SPECIES_BUNNELBY
 		{
 			MOVE_EARTHQUAKE,
 			MOVE_QUICK_ATTACK,
-			MOVE_U-TURN,
+			MOVE_U_TURN,
 			MOVE_STONE_EDGE,
 		},
 	},
@@ -76761,7 +76761,7 @@ static struct RoguePokemonCompetitiveSet const sCompetitiveSets_SPECIES_DIGGERSB
 		{
 			MOVE_EARTHQUAKE,
 			MOVE_QUICK_ATTACK,
-			MOVE_U-TURN,
+			MOVE_U_TURN,
 			MOVE_STONE_EDGE,
 		},
 	},
@@ -76840,7 +76840,7 @@ static struct RoguePokemonCompetitiveSet const sCompetitiveSets_SPECIES_FLETCHLI
 		.nature=NATURE_JOLLY,
 		.moves=
 		{
-			MOVE_WILL-O-WISP,
+			MOVE_WILL_O_WISP,
 			MOVE_TAILWIND,
 			MOVE_BRAVE_BIRD,
 			MOVE_FLARE_BLITZ,
@@ -76927,7 +76927,7 @@ static struct RoguePokemonCompetitiveSet const sCompetitiveSets_SPECIES_FLETCHIN
 		.nature=NATURE_JOLLY,
 		.moves=
 		{
-			MOVE_WILL-O-WISP,
+			MOVE_WILL_O_WISP,
 			MOVE_TAILWIND,
 			MOVE_BRAVE_BIRD,
 			MOVE_FLARE_BLITZ,
@@ -77021,7 +77021,7 @@ static struct RoguePokemonCompetitiveSet const sCompetitiveSets_SPECIES_TALONFLA
 		.nature=NATURE_JOLLY,
 		.moves=
 		{
-			MOVE_WILL-O-WISP,
+			MOVE_WILL_O_WISP,
 			MOVE_TAILWIND,
 			MOVE_BRAVE_BIRD,
 			MOVE_FLARE_BLITZ,
@@ -77291,7 +77291,7 @@ static struct RoguePokemonCompetitiveSet const sCompetitiveSets_SPECIES_LITLEO[]
 		{
 			MOVE_TORCH_SONG,
 			MOVE_HELPING_HAND,
-			MOVE_WILL-O-WISP,
+			MOVE_WILL_O_WISP,
 			MOVE_HYPER_VOICE,
 		},
 	},
@@ -77388,7 +77388,7 @@ static struct RoguePokemonCompetitiveSet const sCompetitiveSets_SPECIES_PYROAR[]
 		{
 			MOVE_TORCH_SONG,
 			MOVE_HELPING_HAND,
-			MOVE_WILL-O-WISP,
+			MOVE_WILL_O_WISP,
 			MOVE_HYPER_VOICE,
 		},
 	},
@@ -78589,7 +78589,7 @@ static struct RoguePokemonCompetitiveSet const sCompetitiveSets_SPECIES_HONEDGE[
 		.moves=
 		{
 			MOVE_BEHEMOTH_BLADE,
-			MOVE_KING'S_SHIELD,
+			MOVE_KINGS_SHIELD,
 			MOVE_SHADOW_CLAW,
 			MOVE_SWORDS_DANCE,
 		},
@@ -78666,7 +78666,7 @@ static struct RoguePokemonCompetitiveSet const sCompetitiveSets_SPECIES_DOUBLADE
 		.moves=
 		{
 			MOVE_BEHEMOTH_BLADE,
-			MOVE_KING'S_SHIELD,
+			MOVE_KINGS_SHIELD,
 			MOVE_SHADOW_CLAW,
 			MOVE_SWORDS_DANCE,
 		},
@@ -78755,7 +78755,7 @@ static struct RoguePokemonCompetitiveSet const sCompetitiveSets_SPECIES_AEGISLAS
 		.moves=
 		{
 			MOVE_BEHEMOTH_BLADE,
-			MOVE_KING'S_SHIELD,
+			MOVE_KINGS_SHIELD,
 			MOVE_SHADOW_CLAW,
 			MOVE_SWORDS_DANCE,
 		},
@@ -81425,7 +81425,7 @@ static struct RoguePokemonCompetitiveSet const sCompetitiveSets_SPECIES_PHANTUMP
 		.nature=NATURE_SASSY,
 		.moves=
 		{
-			MOVE_FOREST'S_CURSE,
+			MOVE_FORESTS_CURSE,
 			MOVE_HORN_LEECH,
 			MOVE_TERA_BLAST,
 			MOVE_POLTERGEIST,
@@ -81540,7 +81540,7 @@ static struct RoguePokemonCompetitiveSet const sCompetitiveSets_SPECIES_TREVENAN
 		.nature=NATURE_SASSY,
 		.moves=
 		{
-			MOVE_FOREST'S_CURSE,
+			MOVE_FORESTS_CURSE,
 			MOVE_HORN_LEECH,
 			MOVE_TERA_BLAST,
 			MOVE_POLTERGEIST,
@@ -83057,7 +83057,7 @@ static struct RoguePokemonCompetitiveSet const sCompetitiveSets_SPECIES_VOLCANIO
 		{
 			MOVE_STEAM_ERUPTION,
 			MOVE_FLAMETHROWER,
-			MOVE_WILL-O-WISP,
+			MOVE_WILL_O_WISP,
 			MOVE_TAUNT,
 		},
 	},
@@ -83775,7 +83775,7 @@ static struct RoguePokemonCompetitiveSet const sCompetitiveSets_SPECIES_LITTEN[]
 		.moves=
 		{
 			MOVE_FAKE_OUT,
-			MOVE_U-TURN,
+			MOVE_U_TURN,
 			MOVE_FLARE_BLITZ,
 			MOVE_DARKEST_LARIAT,
 		},
@@ -83865,7 +83865,7 @@ static struct RoguePokemonCompetitiveSet const sCompetitiveSets_SPECIES_TORRACAT
 		.moves=
 		{
 			MOVE_FAKE_OUT,
-			MOVE_U-TURN,
+			MOVE_U_TURN,
 			MOVE_FLARE_BLITZ,
 			MOVE_DARKEST_LARIAT,
 		},
@@ -83988,7 +83988,7 @@ static struct RoguePokemonCompetitiveSet const sCompetitiveSets_SPECIES_INCINERO
 		.moves=
 		{
 			MOVE_FAKE_OUT,
-			MOVE_U-TURN,
+			MOVE_U_TURN,
 			MOVE_FLARE_BLITZ,
 			MOVE_DARKEST_LARIAT,
 		},
@@ -86751,7 +86751,7 @@ static struct RoguePokemonCompetitiveSet const sCompetitiveSets_SPECIES_SALANDIT
 {
 	{
 		.flags= (0 | MON_FLAGS_GEN9VGCPRIDE),
-		.heldItem=ITEM_KING'S_ROCK,
+		.heldItem=ITEM_KINGS_ROCK,
 		.ability=ABILITY_CORROSION,
 		.hiddenPowerType=TYPE_NONE,
 		.teraType=TYPE_GHOST,
@@ -86866,7 +86866,7 @@ static struct RoguePokemonCompetitiveSet const sCompetitiveSets_SPECIES_SALAZZLE
 {
 	{
 		.flags= (0 | MON_FLAGS_GEN9VGCPRIDE),
-		.heldItem=ITEM_KING'S_ROCK,
+		.heldItem=ITEM_KINGS_ROCK,
 		.ability=ABILITY_CORROSION,
 		.hiddenPowerType=TYPE_NONE,
 		.teraType=TYPE_GHOST,
@@ -87134,7 +87134,7 @@ static struct RoguePokemonCompetitiveSet const sCompetitiveSets_SPECIES_BOUNSWEE
 	{
 		.flags= (0 | MON_FLAGS_GEN9VGCPRIDE),
 		.heldItem=ITEM_WIDE_LENS,
-		.ability=ABILITY_REGAL_MAJESTY,
+		.ability=ABILITY_QUEENLY_MAJESTY,
 		.hiddenPowerType=TYPE_NONE,
 		.teraType=TYPE_GRASS,
 		.nature=NATURE_ADAMANT,
@@ -87215,7 +87215,7 @@ static struct RoguePokemonCompetitiveSet const sCompetitiveSets_SPECIES_STEENEE[
 	{
 		.flags= (0 | MON_FLAGS_GEN9VGCPRIDE),
 		.heldItem=ITEM_WIDE_LENS,
-		.ability=ABILITY_REGAL_MAJESTY,
+		.ability=ABILITY_QUEENLY_MAJESTY,
 		.hiddenPowerType=TYPE_NONE,
 		.teraType=TYPE_GRASS,
 		.nature=NATURE_ADAMANT,
@@ -87309,7 +87309,7 @@ static struct RoguePokemonCompetitiveSet const sCompetitiveSets_SPECIES_TSAREENA
 	{
 		.flags= (0 | MON_FLAGS_GEN9VGCPRIDE),
 		.heldItem=ITEM_WIDE_LENS,
-		.ability=ABILITY_REGAL_MAJESTY,
+		.ability=ABILITY_QUEENLY_MAJESTY,
 		.hiddenPowerType=TYPE_NONE,
 		.teraType=TYPE_GRASS,
 		.nature=NATURE_ADAMANT,
@@ -87639,7 +87639,7 @@ static struct RoguePokemonCompetitiveSet const sCompetitiveSets_SPECIES_PASSIMIA
 	{
 		.flags= (0 | MON_FLAGS_GEN9VGCPRIDE),
 		.heldItem=ITEM_EXPERT_BELT,
-		.ability=ABILITY_BALLIN',
+		.ability=ABILITY_BALLIN,
 		.hiddenPowerType=TYPE_NONE,
 		.teraType=TYPE_GHOST,
 		.nature=NATURE_JOLLY,
@@ -88187,7 +88187,7 @@ static struct RoguePokemonCompetitiveSet const sCompetitiveSets_SPECIES_TYPE_NUL
 		.moves=
 		{
 			MOVE_EXPLOSION,
-			MOVE_MULTI-ATTACK,
+			MOVE_MULTI_ATTACK,
 			MOVE_TAILWIND,
 			MOVE_PARTING_SHOT,
 		},
@@ -88301,7 +88301,7 @@ static struct RoguePokemonCompetitiveSet const sCompetitiveSets_SPECIES_SILVALLY
 		.moves=
 		{
 			MOVE_EXPLOSION,
-			MOVE_MULTI-ATTACK,
+			MOVE_MULTI_ATTACK,
 			MOVE_TAILWIND,
 			MOVE_PARTING_SHOT,
 		},
@@ -88807,7 +88807,7 @@ static struct RoguePokemonCompetitiveSet const sCompetitiveSets_SPECIES_MIMIKYU[
 			MOVE_TRICK_ROOM,
 			MOVE_POLTERGEIST,
 			MOVE_SHADOW_SNEAK,
-			MOVE_WILL-O-WISP,
+			MOVE_WILL_O_WISP,
 		},
 	},
 	{
@@ -89631,7 +89631,7 @@ static struct RoguePokemonCompetitiveSet const sCompetitiveSets_SPECIES_TAPU_KOK
 		{
 			MOVE_BRAVE_BIRD,
 			MOVE_WILD_CHARGE,
-			MOVE_U-TURN,
+			MOVE_U_TURN,
 			MOVE_PROTECT,
 		},
 	},
@@ -90927,7 +90927,7 @@ static struct RoguePokemonCompetitiveSet const sCompetitiveSets_SPECIES_GUZZLORD
 	{
 		.flags= (0 | MON_FLAGS_GEN9VGCPRIDE),
 		.heldItem=ITEM_CHOICE_BAND,
-		.ability=ABILITY_DRAGON'S_MAW,
+		.ability=ABILITY_DRAGONS_MAW,
 		.hiddenPowerType=TYPE_NONE,
 		.teraType=TYPE_DARK,
 		.nature=NATURE_ADAMANT,
@@ -91413,7 +91413,7 @@ static struct RoguePokemonCompetitiveSet const sCompetitiveSets_SPECIES_MAGEARNA
 	{
 		.flags= (0 | MON_FLAGS_GEN9VGCPRIDE),
 		.heldItem=ITEM_SITRUS_BERRY,
-		.ability=ABILITY_SOUL-HEART,
+		.ability=ABILITY_SOUL_HEART,
 		.hiddenPowerType=TYPE_NONE,
 		.teraType=TYPE_WATER,
 		.nature=NATURE_QUIET,
@@ -91428,7 +91428,7 @@ static struct RoguePokemonCompetitiveSet const sCompetitiveSets_SPECIES_MAGEARNA
 	{
 		.flags= (0 | MON_FLAGS_GEN9VGCPRIDE),
 		.heldItem=ITEM_ASSAULT_VEST,
-		.ability=ABILITY_SOUL-HEART,
+		.ability=ABILITY_SOUL_HEART,
 		.hiddenPowerType=TYPE_NONE,
 		.teraType=TYPE_WATER,
 		.nature=NATURE_MODEST,
@@ -92214,7 +92214,7 @@ static struct RoguePokemonCompetitiveSet const sCompetitiveSets_SPECIES_MELMETAL
 		.moves=
 		{
 			MOVE_DOUBLE_IRON_BASH,
-			MOVE_SELF-DESTRUCT,
+			MOVE_SELF_DESTRUCT,
 			MOVE_THUNDER_PUNCH,
 			MOVE_SUPERPOWER,
 		},
@@ -92648,7 +92648,7 @@ static struct RoguePokemonCompetitiveSet const sCompetitiveSets_SPECIES_SCORBUNN
 	{
 		.flags= (0 | MON_FLAGS_GEN9VGCPRIDE),
 		.heldItem=ITEM_LIFE_ORB,
-		.ability=ABILITY_BALLIN',
+		.ability=ABILITY_BALLIN,
 		.hiddenPowerType=TYPE_NONE,
 		.teraType=TYPE_ELECTRIC,
 		.nature=NATURE_JOLLY,
@@ -92752,7 +92752,7 @@ static struct RoguePokemonCompetitiveSet const sCompetitiveSets_SPECIES_RABOOT[]
 	{
 		.flags= (0 | MON_FLAGS_GEN9VGCPRIDE),
 		.heldItem=ITEM_LIFE_ORB,
-		.ability=ABILITY_BALLIN',
+		.ability=ABILITY_BALLIN,
 		.hiddenPowerType=TYPE_NONE,
 		.teraType=TYPE_ELECTRIC,
 		.nature=NATURE_JOLLY,
@@ -92874,7 +92874,7 @@ static struct RoguePokemonCompetitiveSet const sCompetitiveSets_SPECIES_CINDERAC
 	{
 		.flags= (0 | MON_FLAGS_GEN9VGCPRIDE),
 		.heldItem=ITEM_LIFE_ORB,
-		.ability=ABILITY_BALLIN',
+		.ability=ABILITY_BALLIN,
 		.hiddenPowerType=TYPE_NONE,
 		.teraType=TYPE_ELECTRIC,
 		.nature=NATURE_JOLLY,
@@ -93225,7 +93225,7 @@ static struct RoguePokemonCompetitiveSet const sCompetitiveSets_SPECIES_SKWOVET[
 		.moves=
 		{
 			MOVE_STUFF_CHEEKS,
-			MOVE_G-MAX_REPLENISH,
+			MOVE_G_MAX_REPLENISH,
 			MOVE_EARTHQUAKE,
 			MOVE_KNOCK_OFF,
 		},
@@ -93316,7 +93316,7 @@ static struct RoguePokemonCompetitiveSet const sCompetitiveSets_SPECIES_GREEDENT
 		.moves=
 		{
 			MOVE_STUFF_CHEEKS,
-			MOVE_G-MAX_REPLENISH,
+			MOVE_G_MAX_REPLENISH,
 			MOVE_EARTHQUAKE,
 			MOVE_KNOCK_OFF,
 		},
@@ -93409,7 +93409,7 @@ static struct RoguePokemonCompetitiveSet const sCompetitiveSets_SPECIES_ROOKIDEE
 		{
 			MOVE_BRAVE_BIRD,
 			MOVE_TAILWIND,
-			MOVE_U-TURN,
+			MOVE_U_TURN,
 			MOVE_ROOST,
 		},
 	},
@@ -93500,7 +93500,7 @@ static struct RoguePokemonCompetitiveSet const sCompetitiveSets_SPECIES_CORVISQU
 		{
 			MOVE_BRAVE_BIRD,
 			MOVE_TAILWIND,
-			MOVE_U-TURN,
+			MOVE_U_TURN,
 			MOVE_ROOST,
 		},
 	},
@@ -93612,7 +93612,7 @@ static struct RoguePokemonCompetitiveSet const sCompetitiveSets_SPECIES_CORVIKNI
 		{
 			MOVE_BRAVE_BIRD,
 			MOVE_TAILWIND,
-			MOVE_U-TURN,
+			MOVE_U_TURN,
 			MOVE_ROOST,
 		},
 	},
@@ -93650,7 +93650,7 @@ static struct RoguePokemonCompetitiveSet const sCompetitiveSets_SPECIES_BLIPBUG[
 		.nature=NATURE_SASSY,
 		.moves=
 		{
-			MOVE_G-MAX_GRAVITAS,
+			MOVE_G_MAX_GRAVITAS,
 			MOVE_BUG_BUZZ,
 			MOVE_HELPING_HAND,
 			MOVE_TRICK_ROOM,
@@ -93727,7 +93727,7 @@ static struct RoguePokemonCompetitiveSet const sCompetitiveSets_SPECIES_DOTTLER[
 		.nature=NATURE_SASSY,
 		.moves=
 		{
-			MOVE_G-MAX_GRAVITAS,
+			MOVE_G_MAX_GRAVITAS,
 			MOVE_BUG_BUZZ,
 			MOVE_HELPING_HAND,
 			MOVE_TRICK_ROOM,
@@ -93827,7 +93827,7 @@ static struct RoguePokemonCompetitiveSet const sCompetitiveSets_SPECIES_ORBEETLE
 		.nature=NATURE_SASSY,
 		.moves=
 		{
-			MOVE_G-MAX_GRAVITAS,
+			MOVE_G_MAX_GRAVITAS,
 			MOVE_BUG_BUZZ,
 			MOVE_HELPING_HAND,
 			MOVE_TRICK_ROOM,
@@ -94588,7 +94588,7 @@ static struct RoguePokemonCompetitiveSet const sCompetitiveSets_SPECIES_YAMPER[]
 	{
 		.flags= (0 | MON_FLAGS_GEN9VGCPRIDE),
 		.heldItem=ITEM_LIFE_ORB,
-		.ability=ABILITY_BALLIN',
+		.ability=ABILITY_BALLIN,
 		.hiddenPowerType=TYPE_NONE,
 		.teraType=TYPE_GHOST,
 		.nature=NATURE_JOLLY,
@@ -94705,7 +94705,7 @@ static struct RoguePokemonCompetitiveSet const sCompetitiveSets_SPECIES_BOLTUND[
 	{
 		.flags= (0 | MON_FLAGS_GEN9VGCPRIDE),
 		.heldItem=ITEM_LIFE_ORB,
-		.ability=ABILITY_BALLIN',
+		.ability=ABILITY_BALLIN,
 		.hiddenPowerType=TYPE_NONE,
 		.teraType=TYPE_GHOST,
 		.nature=NATURE_JOLLY,
@@ -95038,7 +95038,7 @@ static struct RoguePokemonCompetitiveSet const sCompetitiveSets_SPECIES_APPLIN[]
 		.nature=NATURE_JOLLY,
 		.moves=
 		{
-			MOVE_U-TURN,
+			MOVE_U_TURN,
 			MOVE_GRAV_APPLE,
 			MOVE_DUAL_WINGBEAT,
 			MOVE_DRAGON_RUSH,
@@ -95130,7 +95130,7 @@ static struct RoguePokemonCompetitiveSet const sCompetitiveSets_SPECIES_FLAPPLE[
 		.nature=NATURE_JOLLY,
 		.moves=
 		{
-			MOVE_U-TURN,
+			MOVE_U_TURN,
 			MOVE_GRAV_APPLE,
 			MOVE_DUAL_WINGBEAT,
 			MOVE_DRAGON_RUSH,
@@ -97110,7 +97110,7 @@ static struct RoguePokemonCompetitiveSet const sCompetitiveSets_SPECIES_PERRSERK
 			MOVE_FAKE_OUT,
 			MOVE_IRON_HEAD,
 			MOVE_CLOSE_COMBAT,
-			MOVE_U-TURN,
+			MOVE_U_TURN,
 		},
 	},
 };
@@ -97660,7 +97660,7 @@ static struct RoguePokemonCompetitiveSet const sCompetitiveSets_SPECIES_MILCERY[
 		.nature=NATURE_TIMID,
 		.moves=
 		{
-			MOVE_G-MAX_FINALE,
+			MOVE_G_MAX_FINALE,
 			MOVE_PROTECT,
 			MOVE_DECORATE,
 			MOVE_HELPING_HAND,
@@ -97751,7 +97751,7 @@ static struct RoguePokemonCompetitiveSet const sCompetitiveSets_SPECIES_ALCREMIE
 		.nature=NATURE_TIMID,
 		.moves=
 		{
-			MOVE_G-MAX_FINALE,
+			MOVE_G_MAX_FINALE,
 			MOVE_PROTECT,
 			MOVE_DECORATE,
 			MOVE_HELPING_HAND,
@@ -98188,7 +98188,7 @@ static struct RoguePokemonCompetitiveSet const sCompetitiveSets_SPECIES_STONJOUR
 		.moves=
 		{
 			MOVE_STONE_EDGE,
-			MOVE_SELF-DESTRUCT,
+			MOVE_SELF_DESTRUCT,
 			MOVE_EARTHQUAKE,
 			MOVE_ROCK_TOMB,
 		},
@@ -98566,7 +98566,7 @@ static struct RoguePokemonCompetitiveSet const sCompetitiveSets_SPECIES_CUFANT[]
 		.nature=NATURE_ADAMANT,
 		.moves=
 		{
-			MOVE_G-MAX_STEELSURGE,
+			MOVE_G_MAX_STEELSURGE,
 			MOVE_HEADLONG_RUSH,
 			MOVE_SUPERPOWER,
 			MOVE_SNARL,
@@ -98665,7 +98665,7 @@ static struct RoguePokemonCompetitiveSet const sCompetitiveSets_SPECIES_COPPERAJ
 		.nature=NATURE_ADAMANT,
 		.moves=
 		{
-			MOVE_G-MAX_STEELSURGE,
+			MOVE_G_MAX_STEELSURGE,
 			MOVE_HEADLONG_RUSH,
 			MOVE_SUPERPOWER,
 			MOVE_SNARL,
@@ -99208,7 +99208,7 @@ static struct RoguePokemonCompetitiveSet const sCompetitiveSets_SPECIES_DREEPY[]
 		.nature=NATURE_JOLLY,
 		.moves=
 		{
-			MOVE_U-TURN,
+			MOVE_U_TURN,
 			MOVE_TERA_BLAST,
 			MOVE_DRAGON_DARTS,
 			MOVE_PHANTOM_FORCE,
@@ -99302,7 +99302,7 @@ static struct RoguePokemonCompetitiveSet const sCompetitiveSets_SPECIES_DRAKLOAK
 		.nature=NATURE_JOLLY,
 		.moves=
 		{
-			MOVE_U-TURN,
+			MOVE_U_TURN,
 			MOVE_TERA_BLAST,
 			MOVE_DRAGON_DARTS,
 			MOVE_PHANTOM_FORCE,
@@ -99406,7 +99406,7 @@ static struct RoguePokemonCompetitiveSet const sCompetitiveSets_SPECIES_DRAGAPUL
 		.nature=NATURE_JOLLY,
 		.moves=
 		{
-			MOVE_U-TURN,
+			MOVE_U_TURN,
 			MOVE_TERA_BLAST,
 			MOVE_DRAGON_DARTS,
 			MOVE_PHANTOM_FORCE,
@@ -100021,7 +100021,7 @@ static struct RoguePokemonCompetitiveSet const sCompetitiveSets_SPECIES_ZARUDE[]
 			MOVE_KNOCK_OFF,
 			MOVE_CLOSE_COMBAT,
 			MOVE_POWER_WHIP,
-			MOVE_U-TURN,
+			MOVE_U_TURN,
 		},
 	},
 };
@@ -100197,7 +100197,7 @@ static struct RoguePokemonCompetitiveSet const sCompetitiveSets_SPECIES_REGIDRAG
 	{
 		.flags= (0 | MON_FLAGS_GEN9VGCPRIDE),
 		.heldItem=ITEM_EXPERT_BELT,
-		.ability=ABILITY_DRAGON'S_MAW,
+		.ability=ABILITY_DRAGONS_MAW,
 		.hiddenPowerType=TYPE_NONE,
 		.teraType=TYPE_STEEL,
 		.nature=NATURE_ADAMANT,
@@ -100212,7 +100212,7 @@ static struct RoguePokemonCompetitiveSet const sCompetitiveSets_SPECIES_REGIDRAG
 	{
 		.flags= (0 | MON_FLAGS_GEN9VGCPRIDE),
 		.heldItem=ITEM_DRAGON_FANG,
-		.ability=ABILITY_DRAGON'S_MAW,
+		.ability=ABILITY_DRAGONS_MAW,
 		.hiddenPowerType=TYPE_NONE,
 		.teraType=TYPE_STEEL,
 		.nature=NATURE_TIMID,
@@ -100397,7 +100397,7 @@ static struct RoguePokemonCompetitiveSet const sCompetitiveSets_SPECIES_SPECTRIE
 		.moves=
 		{
 			MOVE_SHADOW_BALL,
-			MOVE_WILL-O-WISP,
+			MOVE_WILL_O_WISP,
 			MOVE_TAUNT,
 			MOVE_SNARL,
 		},
@@ -100733,7 +100733,7 @@ static struct RoguePokemonCompetitiveSet const sCompetitiveSets_SPECIES_KLEAVOR[
 		.nature=NATURE_JOLLY,
 		.moves=
 		{
-			MOVE_X-SCISSOR,
+			MOVE_X_SCISSOR,
 			MOVE_STONE_AXE,
 			MOVE_SLASH,
 			MOVE_PSYCHO_CUT,
@@ -101174,7 +101174,7 @@ static struct RoguePokemonCompetitiveSet const sCompetitiveSets_SPECIES_OVERQWIL
 		{
 			MOVE_LIQUIDATION,
 			MOVE_GUNK_SHOT,
-			MOVE_SELF-DESTRUCT,
+			MOVE_SELF_DESTRUCT,
 			MOVE_KNOCK_OFF,
 		},
 	},
@@ -101924,7 +101924,7 @@ static struct RoguePokemonCompetitiveSet const sCompetitiveSets_SPECIES_VULPIX_A
 		{
 			MOVE_AURORA_VEIL,
 			MOVE_DAZZLING_GLEAM,
-			MOVE_FREEZE-DRY,
+			MOVE_FREEZE_DRY,
 			MOVE_BLIZZARD,
 		},
 	},
@@ -102025,7 +102025,7 @@ static struct RoguePokemonCompetitiveSet const sCompetitiveSets_SPECIES_NINETALE
 		{
 			MOVE_AURORA_VEIL,
 			MOVE_DAZZLING_GLEAM,
-			MOVE_FREEZE-DRY,
+			MOVE_FREEZE_DRY,
 			MOVE_BLIZZARD,
 		},
 	},
@@ -103432,7 +103432,7 @@ static struct RoguePokemonCompetitiveSet const sCompetitiveSets_SPECIES_MEOWTH_G
 			MOVE_FAKE_OUT,
 			MOVE_IRON_HEAD,
 			MOVE_CLOSE_COMBAT,
-			MOVE_U-TURN,
+			MOVE_U_TURN,
 		},
 	},
 };
@@ -104099,7 +104099,7 @@ static struct RoguePokemonCompetitiveSet const sCompetitiveSets_SPECIES_WEEZING_
 		{
 			MOVE_STRANGE_STEAM,
 			MOVE_TAUNT,
-			MOVE_WILL-O-WISP,
+			MOVE_WILL_O_WISP,
 			MOVE_DESTINY_BOND,
 		},
 	},
@@ -104434,7 +104434,7 @@ static struct RoguePokemonCompetitiveSet const sCompetitiveSets_SPECIES_ZAPDOS_G
 		{
 			MOVE_CLOSE_COMBAT,
 			MOVE_BRAVE_BIRD,
-			MOVE_U-TURN,
+			MOVE_U_TURN,
 			MOVE_TERA_BLAST,
 		},
 	},
@@ -104653,7 +104653,7 @@ static struct RoguePokemonCompetitiveSet const sCompetitiveSets_SPECIES_SLOWKING
 	{
 		.flags= (0 | MON_FLAGS_GEN9VGCPRIDE),
 		.heldItem=ITEM_WIKI_BERRY,
-		.ability=ABILITY_REGAL_MAJESTY,
+		.ability=ABILITY_QUEENLY_MAJESTY,
 		.hiddenPowerType=TYPE_NONE,
 		.teraType=TYPE_FAIRY,
 		.nature=NATURE_BOLD,
@@ -104783,7 +104783,7 @@ static struct RoguePokemonCompetitiveSet const sCompetitiveSets_SPECIES_CORSOLA_
 		.moves=
 		{
 			MOVE_TRICK_ROOM,
-			MOVE_WILL-O-WISP,
+			MOVE_WILL_O_WISP,
 			MOVE_POWER_GEM,
 			MOVE_STRENGTH_SAP,
 		},
@@ -105089,7 +105089,7 @@ static struct RoguePokemonCompetitiveSet const sCompetitiveSets_SPECIES_DARUMAKA
 		.moves=
 		{
 			MOVE_ICICLE_CRASH,
-			MOVE_U-TURN,
+			MOVE_U_TURN,
 			MOVE_SUPERPOWER,
 			MOVE_FLARE_BLITZ,
 		},
@@ -105214,7 +105214,7 @@ static struct RoguePokemonCompetitiveSet const sCompetitiveSets_SPECIES_DARMANIT
 		.moves=
 		{
 			MOVE_ICICLE_CRASH,
-			MOVE_U-TURN,
+			MOVE_U_TURN,
 			MOVE_SUPERPOWER,
 			MOVE_FLARE_BLITZ,
 		},
@@ -106104,7 +106104,7 @@ static struct RoguePokemonCompetitiveSet const sCompetitiveSets_SPECIES_QWILFISH
 		{
 			MOVE_GUNK_SHOT,
 			MOVE_KNOCK_OFF,
-			MOVE_SELF-DESTRUCT,
+			MOVE_SELF_DESTRUCT,
 			MOVE_PROTECT,
 		},
 	},
@@ -109529,7 +109529,7 @@ static struct RoguePokemonCompetitiveSet const sCompetitiveSets_SPECIES_ROTOM_HE
 			MOVE_OVERHEAT,
 			MOVE_THUNDERBOLT,
 			MOVE_VOLT_SWITCH,
-			MOVE_WILL-O-WISP,
+			MOVE_WILL_O_WISP,
 		},
 	},
 };
@@ -109619,7 +109619,7 @@ static struct RoguePokemonCompetitiveSet const sCompetitiveSets_SPECIES_ROTOM_WA
 			MOVE_HYDRO_PUMP,
 			MOVE_VOLT_SWITCH,
 			MOVE_THUNDERBOLT,
-			MOVE_WILL-O-WISP,
+			MOVE_WILL_O_WISP,
 		},
 	},
 };
@@ -109699,7 +109699,7 @@ static struct RoguePokemonCompetitiveSet const sCompetitiveSets_SPECIES_ROTOM_FR
 {
 	{
 		.flags= (0 | MON_FLAGS_GEN9VGCPRIDE),
-		.heldItem=ITEM_NEVER-MELT_ICE,
+		.heldItem=ITEM_NEVER_MELT_ICE,
 		.ability=ABILITY_REFRIGERATE,
 		.hiddenPowerType=TYPE_NONE,
 		.teraType=TYPE_ICE,
@@ -109813,7 +109813,7 @@ static struct RoguePokemonCompetitiveSet const sCompetitiveSets_SPECIES_ROTOM_FA
 		{
 			MOVE_ELECTROWEB,
 			MOVE_EERIE_IMPULSE,
-			MOVE_WILL-O-WISP,
+			MOVE_WILL_O_WISP,
 			MOVE_HEX,
 		},
 	},
@@ -110212,7 +110212,7 @@ static struct RoguePokemonCompetitiveSet const sCompetitiveSets_SPECIES_GIRATINA
 			MOVE_SHADOW_FORCE,
 			MOVE_OUTRAGE,
 			MOVE_PROTECT,
-			MOVE_WILL-O-WISP,
+			MOVE_WILL_O_WISP,
 		},
 	},
 };
@@ -110773,7 +110773,7 @@ static struct RoguePokemonCompetitiveSet const sCompetitiveSets_SPECIES_TORNADUS
 			MOVE_BLEAKWIND_STORM,
 			MOVE_HEAT_WAVE,
 			MOVE_FOCUS_BLAST,
-			MOVE_U-TURN,
+			MOVE_U_TURN,
 		},
 	},
 };
@@ -111002,7 +111002,7 @@ static struct RoguePokemonCompetitiveSet const sCompetitiveSets_SPECIES_LANDORUS
 		.moves=
 		{
 			MOVE_ROCK_SLIDE,
-			MOVE_U-TURN,
+			MOVE_U_TURN,
 			MOVE_EARTHQUAKE,
 			MOVE_TERA_BLAST,
 		},
@@ -111017,7 +111017,7 @@ static struct RoguePokemonCompetitiveSet const sCompetitiveSets_SPECIES_LANDORUS
 		.moves=
 		{
 			MOVE_ROCK_SLIDE,
-			MOVE_U-TURN,
+			MOVE_U_TURN,
 			MOVE_EARTHQUAKE,
 			MOVE_TERA_BLAST,
 		},
@@ -111216,7 +111216,7 @@ static struct RoguePokemonCompetitiveSet const sCompetitiveSets_SPECIES_KYUREM_W
 		.moves=
 		{
 			MOVE_BLIZZARD,
-			MOVE_FREEZE-DRY,
+			MOVE_FREEZE_DRY,
 			MOVE_DRACO_METEOR,
 			MOVE_FUSION_FLARE,
 		},
@@ -111231,7 +111231,7 @@ static struct RoguePokemonCompetitiveSet const sCompetitiveSets_SPECIES_KYUREM_W
 		.moves=
 		{
 			MOVE_ICE_BURN,
-			MOVE_FREEZE-DRY,
+			MOVE_FREEZE_DRY,
 			MOVE_DRACO_METEOR,
 			MOVE_FUSION_FLARE,
 		},
@@ -113679,7 +113679,7 @@ static struct RoguePokemonCompetitiveSet const sCompetitiveSets_SPECIES_CALYREX_
 	{
 		.flags= (0 | MON_FLAGS_GEN9VGCPRIDE),
 		.heldItem=ITEM_ASSAULT_VEST,
-		.ability=ABILITY_AS_ONE_(GLASTRIER),
+		.ability=ABILITY_AS_ONE_ICE_RIDER,
 		.hiddenPowerType=TYPE_NONE,
 		.teraType=TYPE_WATER,
 		.nature=NATURE_ADAMANT,
@@ -113694,7 +113694,7 @@ static struct RoguePokemonCompetitiveSet const sCompetitiveSets_SPECIES_CALYREX_
 	{
 		.flags= (0 | MON_FLAGS_GEN9VGCPRIDE),
 		.heldItem=ITEM_CLEAR_AMULET,
-		.ability=ABILITY_AS_ONE_(GLASTRIER),
+		.ability=ABILITY_AS_ONE_ICE_RIDER,
 		.hiddenPowerType=TYPE_NONE,
 		.teraType=TYPE_FIRE,
 		.nature=NATURE_BRAVE,
@@ -113820,7 +113820,7 @@ static struct RoguePokemonCompetitiveSet const sCompetitiveSets_SPECIES_CALYREX_
 	{
 		.flags= (0 | MON_FLAGS_GEN9VGCPRIDE),
 		.heldItem=ITEM_COVERT_CLOAK,
-		.ability=ABILITY_AS_ONE_(SPECTRIER),
+		.ability=ABILITY_AS_ONE_SHADOW_RIDER,
 		.hiddenPowerType=TYPE_NONE,
 		.teraType=TYPE_FAIRY,
 		.nature=NATURE_MODEST,
@@ -113835,7 +113835,7 @@ static struct RoguePokemonCompetitiveSet const sCompetitiveSets_SPECIES_CALYREX_
 	{
 		.flags= (0 | MON_FLAGS_GEN9VGCPRIDE),
 		.heldItem=ITEM_CHOICE_SPECS,
-		.ability=ABILITY_AS_ONE_(SPECTRIER),
+		.ability=ABILITY_AS_ONE_SHADOW_RIDER,
 		.hiddenPowerType=TYPE_NONE,
 		.teraType=TYPE_FIGHTING,
 		.nature=NATURE_TIMID,
@@ -114042,7 +114042,7 @@ static struct RoguePokemonCompetitiveSet const sCompetitiveSets_SPECIES_SPRIGATI
 			MOVE_FLOWER_TRICK,
 			MOVE_KNOCK_OFF,
 			MOVE_PLAY_ROUGH,
-			MOVE_U-TURN,
+			MOVE_U_TURN,
 		},
 	},
 };
@@ -114146,7 +114146,7 @@ static struct RoguePokemonCompetitiveSet const sCompetitiveSets_SPECIES_FLORAGAT
 			MOVE_FLOWER_TRICK,
 			MOVE_KNOCK_OFF,
 			MOVE_PLAY_ROUGH,
-			MOVE_U-TURN,
+			MOVE_U_TURN,
 		},
 	},
 };
@@ -114277,7 +114277,7 @@ static struct RoguePokemonCompetitiveSet const sCompetitiveSets_SPECIES_MEOWSCAR
 			MOVE_FLOWER_TRICK,
 			MOVE_KNOCK_OFF,
 			MOVE_PLAY_ROUGH,
-			MOVE_U-TURN,
+			MOVE_U_TURN,
 		},
 	},
 };
@@ -115212,7 +115212,7 @@ static struct RoguePokemonCompetitiveSet const sCompetitiveSets_SPECIES_TAROUNTU
 	{
 		.flags= (0 | MON_FLAGS_GEN9VGCPRIDE),
 		.heldItem=ITEM_LEFTOVERS,
-		.ability=ABILITY_CAT'S_CRADLE,
+		.ability=ABILITY_CATS_CRADLE,
 		.hiddenPowerType=TYPE_NONE,
 		.teraType=TYPE_WATER,
 		.nature=NATURE_ADAMANT,
@@ -115307,7 +115307,7 @@ static struct RoguePokemonCompetitiveSet const sCompetitiveSets_SPECIES_SPIDOPS[
 	{
 		.flags= (0 | MON_FLAGS_GEN9VGCPRIDE),
 		.heldItem=ITEM_LEFTOVERS,
-		.ability=ABILITY_CAT'S_CRADLE,
+		.ability=ABILITY_CATS_CRADLE,
 		.hiddenPowerType=TYPE_NONE,
 		.teraType=TYPE_WATER,
 		.nature=NATURE_ADAMANT,
@@ -115386,7 +115386,7 @@ static struct RoguePokemonCompetitiveSet const sCompetitiveSets_SPECIES_NYMBLE[]
 		{
 			MOVE_FIRST_IMPRESSION,
 			MOVE_SUCKER_PUNCH,
-			MOVE_U-TURN,
+			MOVE_U_TURN,
 			MOVE_KNOCK_OFF,
 		},
 	},
@@ -115479,7 +115479,7 @@ static struct RoguePokemonCompetitiveSet const sCompetitiveSets_SPECIES_LOKIX[] 
 		{
 			MOVE_FIRST_IMPRESSION,
 			MOVE_SUCKER_PUNCH,
-			MOVE_U-TURN,
+			MOVE_U_TURN,
 			MOVE_KNOCK_OFF,
 		},
 	},
@@ -116180,7 +116180,7 @@ static struct RoguePokemonCompetitiveSet const sCompetitiveSets_SPECIES_FIDOUGH[
 	{
 		.flags= (0 | MON_FLAGS_GEN9VGCPRIDE),
 		.heldItem=ITEM_LEFTOVERS,
-		.ability=ABILITY_WELL-BAKED_BODY,
+		.ability=ABILITY_WELL_BAKED_BODY,
 		.hiddenPowerType=TYPE_NONE,
 		.teraType=TYPE_FIGHTING,
 		.nature=NATURE_CAREFUL,
@@ -116270,7 +116270,7 @@ static struct RoguePokemonCompetitiveSet const sCompetitiveSets_SPECIES_DACHSBUN
 	{
 		.flags= (0 | MON_FLAGS_GEN9VGCPRIDE),
 		.heldItem=ITEM_LEFTOVERS,
-		.ability=ABILITY_WELL-BAKED_BODY,
+		.ability=ABILITY_WELL_BAKED_BODY,
 		.hiddenPowerType=TYPE_NONE,
 		.teraType=TYPE_FIGHTING,
 		.nature=NATURE_CAREFUL,
@@ -116608,7 +116608,7 @@ static struct RoguePokemonCompetitiveSet const sCompetitiveSets_SPECIES_SQUAWKAB
 			MOVE_PROTECT,
 			MOVE_BRAVE_BIRD,
 			MOVE_FACADE,
-			MOVE_U-TURN,
+			MOVE_U_TURN,
 		},
 	},
 };
@@ -118480,7 +118480,7 @@ static struct RoguePokemonCompetitiveSet const sCompetitiveSets_SPECIES_CAPSAKID
 		{
 			MOVE_OVERHEAT,
 			MOVE_CHLOROBLAST,
-			MOVE_WILL-O-WISP,
+			MOVE_WILL_O_WISP,
 			MOVE_SOLAR_BEAM,
 		},
 	},
@@ -118589,7 +118589,7 @@ static struct RoguePokemonCompetitiveSet const sCompetitiveSets_SPECIES_SCOVILLA
 		{
 			MOVE_OVERHEAT,
 			MOVE_CHLOROBLAST,
-			MOVE_WILL-O-WISP,
+			MOVE_WILL_O_WISP,
 			MOVE_SOLAR_BEAM,
 		},
 	},
@@ -120559,7 +120559,7 @@ static struct RoguePokemonCompetitiveSet const sCompetitiveSets_SPECIES_GREAVARD
 		.moves=
 		{
 			MOVE_LAST_RESPECTS,
-			MOVE_WILL-O-WISP,
+			MOVE_WILL_O_WISP,
 			MOVE_DESTINY_BOND,
 			MOVE_PLAY_ROUGH,
 		},
@@ -120574,7 +120574,7 @@ static struct RoguePokemonCompetitiveSet const sCompetitiveSets_SPECIES_GREAVARD
 		.moves=
 		{
 			MOVE_LAST_RESPECTS,
-			MOVE_WILL-O-WISP,
+			MOVE_WILL_O_WISP,
 			MOVE_HOWL,
 			MOVE_PLAY_ROUGH,
 		},
@@ -120670,7 +120670,7 @@ static struct RoguePokemonCompetitiveSet const sCompetitiveSets_SPECIES_HOUNDSTO
 		.moves=
 		{
 			MOVE_LAST_RESPECTS,
-			MOVE_WILL-O-WISP,
+			MOVE_WILL_O_WISP,
 			MOVE_DESTINY_BOND,
 			MOVE_PLAY_ROUGH,
 		},
@@ -120685,7 +120685,7 @@ static struct RoguePokemonCompetitiveSet const sCompetitiveSets_SPECIES_HOUNDSTO
 		.moves=
 		{
 			MOVE_LAST_RESPECTS,
-			MOVE_WILL-O-WISP,
+			MOVE_WILL_O_WISP,
 			MOVE_HOWL,
 			MOVE_PLAY_ROUGH,
 		},
@@ -120779,7 +120779,7 @@ static struct RoguePokemonCompetitiveSet const sCompetitiveSets_SPECIES_FLAMIGO[
 		{
 			MOVE_BRAVE_BIRD,
 			MOVE_CLOSE_COMBAT,
-			MOVE_U-TURN,
+			MOVE_U_TURN,
 			MOVE_GIGA_IMPACT,
 		},
 	},
@@ -121505,7 +121505,7 @@ static struct RoguePokemonCompetitiveSet const sCompetitiveSets_SPECIES_ANNIHILA
 			MOVE_RAGE_FIST,
 			MOVE_DRAIN_PUNCH,
 			MOVE_FINAL_GAMBIT,
-			MOVE_U-TURN,
+			MOVE_U_TURN,
 		},
 	},
 };
@@ -122648,7 +122648,7 @@ static struct RoguePokemonCompetitiveSet const sCompetitiveSets_SPECIES_SLITHER_
 			MOVE_FIRST_IMPRESSION,
 			MOVE_CLOSE_COMBAT,
 			MOVE_EARTHQUAKE,
-			MOVE_U-TURN,
+			MOVE_U_TURN,
 		},
 	},
 };
@@ -122928,7 +122928,7 @@ static struct RoguePokemonCompetitiveSet const sCompetitiveSets_SPECIES_IRON_BUN
 		{
 			MOVE_HYDRO_PUMP,
 			MOVE_ICY_WIND,
-			MOVE_FREEZE-DRY,
+			MOVE_FREEZE_DRY,
 			MOVE_PROTECT,
 		},
 	},
@@ -123121,7 +123121,7 @@ static struct RoguePokemonCompetitiveSet const sCompetitiveSets_SPECIES_IRON_JUG
 {
 	{
 		.flags= (0 | MON_FLAGS_GEN9VGCPRIDE),
-		.heldItem=ITEM_KING'S_ROCK,
+		.heldItem=ITEM_KINGS_ROCK,
 		.ability=ABILITY_TRIPLE_THREAT,
 		.hiddenPowerType=TYPE_NONE,
 		.teraType=TYPE_FIRE,
@@ -126347,7 +126347,7 @@ static struct RoguePokemonCompetitiveSet const sCompetitiveSets_SPECIES_OGERPON_
 			MOVE_FOLLOW_ME,
 			MOVE_IVY_CUDGEL,
 			MOVE_SPIKY_SHIELD,
-			MOVE_U-TURN,
+			MOVE_U_TURN,
 		},
 	},
 };
@@ -126654,7 +126654,7 @@ static struct RoguePokemonCompetitiveSet const sCompetitiveSets_SPECIES_URSALUNA
 	{
 		.flags= (0 | MON_FLAGS_GEN9VGCPRIDE),
 		.heldItem=ITEM_THROAT_SPRAY,
-		.ability=ABILITY_MIND'S_EYE,
+		.ability=ABILITY_MINDS_EYE,
 		.hiddenPowerType=TYPE_NONE,
 		.teraType=TYPE_FIGHTING,
 		.nature=NATURE_MODEST,
