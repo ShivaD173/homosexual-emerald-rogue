@@ -3785,7 +3785,7 @@ static struct RoguePokemonCompetitiveSet const sCompetitiveSets_SPECIES_PIKACHU[
 		{
 			MOVE_FAKE_OUT,
 			MOVE_THUNDERBOLT,
-			MOVE_HIDDEN_POWER_[ICE],
+			MOVE_HIDDEN_POWER,
 			MOVE_SURF,
 		},
 	},
@@ -17141,7 +17141,7 @@ static struct RoguePokemonCompetitiveSet const sCompetitiveSets_SPECIES_MR_MIME[
 			MOVE_PSYCH_OUT,
 			MOVE_DRAINING_KISS,
 			MOVE_FOLLOW_ME,
-			MOVE_HIDDEN_POWER_[FIRE],
+			MOVE_HIDDEN_POWER,
 		},
 	},
 	{
@@ -17253,7 +17253,7 @@ static struct RoguePokemonCompetitiveSet const sCompetitiveSets_SPECIES_SCYTHER[
 			MOVE_U_TURN,
 			MOVE_BULLET_PUNCH,
 			MOVE_CLOSE_COMBAT,
-			MOVE_HIDDEN_POWER_[STEEL],
+			MOVE_HIDDEN_POWER,
 		},
 	},
 	{
@@ -17268,7 +17268,7 @@ static struct RoguePokemonCompetitiveSet const sCompetitiveSets_SPECIES_SCYTHER[
 			MOVE_BUG_BITE,
 			MOVE_BULLET_PUNCH,
 			MOVE_SWORDS_DANCE,
-			MOVE_HIDDEN_POWER_[GROUND],
+			MOVE_HIDDEN_POWER,
 		},
 	},
 };
@@ -18418,7 +18418,7 @@ static struct RoguePokemonCompetitiveSet const sCompetitiveSets_SPECIES_JOLTEON[
 			MOVE_EERIE_IMPULSE,
 			MOVE_CHARM,
 			MOVE_THUNDERBOLT,
-			MOVE_HIDDEN_POWER_[ICE],
+			MOVE_HIDDEN_POWER,
 		},
 	},
 };
@@ -22849,7 +22849,7 @@ static struct RoguePokemonCompetitiveSet const sCompetitiveSets_SPECIES_PICHU[] 
 		{
 			MOVE_FAKE_OUT,
 			MOVE_THUNDERBOLT,
-			MOVE_HIDDEN_POWER_[ICE],
+			MOVE_HIDDEN_POWER,
 			MOVE_SURF,
 		},
 	},
@@ -27930,7 +27930,7 @@ static struct RoguePokemonCompetitiveSet const sCompetitiveSets_SPECIES_SCIZOR[]
 			MOVE_U_TURN,
 			MOVE_BULLET_PUNCH,
 			MOVE_CLOSE_COMBAT,
-			MOVE_HIDDEN_POWER_[STEEL],
+			MOVE_HIDDEN_POWER,
 		},
 	},
 	{
@@ -27945,7 +27945,7 @@ static struct RoguePokemonCompetitiveSet const sCompetitiveSets_SPECIES_SCIZOR[]
 			MOVE_BUG_BITE,
 			MOVE_BULLET_PUNCH,
 			MOVE_SWORDS_DANCE,
-			MOVE_HIDDEN_POWER_[GROUND],
+			MOVE_HIDDEN_POWER,
 		},
 	},
 };
@@ -30780,7 +30780,7 @@ static struct RoguePokemonCompetitiveSet const sCompetitiveSets_SPECIES_HITMONTO
 		{
 			MOVE_FAKE_OUT,
 			MOVE_CLOSE_COMBAT,
-			MOVE_HIDDEN_POWER_[GHOST],
+			MOVE_HIDDEN_POWER,
 			MOVE_TRIPLE_AXEL,
 		},
 	},
@@ -49356,7 +49356,7 @@ static struct RoguePokemonCompetitiveSet const sCompetitiveSets_SPECIES_MOTHIM[]
 		{
 			MOVE_AEROBLAST,
 			MOVE_BUG_BUZZ,
-			MOVE_HIDDEN_POWER_[GROUND],
+			MOVE_HIDDEN_POWER,
 			MOVE_U_TURN,
 		},
 	},
@@ -51941,7 +51941,7 @@ static struct RoguePokemonCompetitiveSet const sCompetitiveSets_SPECIES_MIME_JR[
 			MOVE_PSYCH_OUT,
 			MOVE_DRAINING_KISS,
 			MOVE_FOLLOW_ME,
-			MOVE_HIDDEN_POWER_[FIRE],
+			MOVE_HIDDEN_POWER,
 		},
 	},
 	{
@@ -58416,7 +58416,7 @@ static struct RoguePokemonCompetitiveSet const sCompetitiveSets_SPECIES_SNIVY[] 
 			MOVE_DRACO_METEOR,
 			MOVE_LEAF_STORM,
 			MOVE_PROTECT,
-			MOVE_HIDDEN_POWER_[FIRE],
+			MOVE_HIDDEN_POWER,
 		},
 	},
 };
@@ -58506,7 +58506,7 @@ static struct RoguePokemonCompetitiveSet const sCompetitiveSets_SPECIES_SERVINE[
 			MOVE_DRACO_METEOR,
 			MOVE_LEAF_STORM,
 			MOVE_PROTECT,
-			MOVE_HIDDEN_POWER_[FIRE],
+			MOVE_HIDDEN_POWER,
 		},
 	},
 };
@@ -58606,7 +58606,7 @@ static struct RoguePokemonCompetitiveSet const sCompetitiveSets_SPECIES_SERPERIO
 			MOVE_DRACO_METEOR,
 			MOVE_LEAF_STORM,
 			MOVE_PROTECT,
-			MOVE_HIDDEN_POWER_[FIRE],
+			MOVE_HIDDEN_POWER,
 		},
 	},
 };
@@ -78318,7 +78318,7 @@ static struct RoguePokemonCompetitiveSet const sCompetitiveSets_SPECIES_FURFROU[
 		.nature=NATURE_CAREFUL,
 		.moves=
 		{
-			MOVE_HIDDEN_POWER_[GHOST],
+			MOVE_HIDDEN_POWER,
 			MOVE_COTTON_GUARD,
 			MOVE_BODY_PRESS,
 			MOVE_FOLLOW_ME,
@@ -88104,7 +88104,7 @@ static struct RoguePokemonCompetitiveSet const sCompetitiveSets_SPECIES_PYUKUMUK
 		.moves=
 		{
 			MOVE_RECOVER,
-			MOVE_HIDDEN_POWER_[GHOST],
+			MOVE_HIDDEN_POWER,
 			MOVE_TOXIC,
 			MOVE_CURSE,
 		},
@@ -88927,7 +88927,7 @@ static struct RoguePokemonCompetitiveSet const sCompetitiveSets_SPECIES_BRUXISH[
 		.moves=
 		{
 			MOVE_EXPANDING_MAWS,
-			MOVE_HIDDEN_POWER_[FIGHTING],
+			MOVE_HIDDEN_POWER,
 			MOVE_WAVE_CRASH,
 			MOVE_FLIP_TURN,
 		},
@@ -89617,7 +89617,7 @@ static struct RoguePokemonCompetitiveSet const sCompetitiveSets_SPECIES_TAPU_KOK
 			MOVE_VOLT_SWITCH,
 			MOVE_ELECTROWEB,
 			MOVE_DAZZLING_GLEAM,
-			MOVE_HIDDEN_POWER_[ICE],
+			MOVE_HIDDEN_POWER,
 		},
 	},
 	{
@@ -94612,7 +94612,7 @@ static struct RoguePokemonCompetitiveSet const sCompetitiveSets_SPECIES_YAMPER[]
 			MOVE_THUNDERBOLT,
 			MOVE_SNARL,
 			MOVE_NUZZLE,
-			MOVE_HIDDEN_POWER_[ICE],
+			MOVE_HIDDEN_POWER,
 		},
 	},
 };
@@ -94729,7 +94729,7 @@ static struct RoguePokemonCompetitiveSet const sCompetitiveSets_SPECIES_BOLTUND[
 			MOVE_THUNDERBOLT,
 			MOVE_SNARL,
 			MOVE_NUZZLE,
-			MOVE_HIDDEN_POWER_[ICE],
+			MOVE_HIDDEN_POWER,
 		},
 	},
 };
@@ -100117,7 +100117,7 @@ static struct RoguePokemonCompetitiveSet const sCompetitiveSets_SPECIES_REGIELEK
 		{
 			MOVE_EXPLOSION,
 			MOVE_WILD_CHARGE,
-			MOVE_HIDDEN_POWER_[GROUND],
+			MOVE_HIDDEN_POWER,
 			MOVE_EXTREME_SPEED,
 		},
 	},
@@ -107333,7 +107333,7 @@ static struct RoguePokemonCompetitiveSet const sCompetitiveSets_SPECIES_PIKACHU_
 		{
 			MOVE_FAKE_OUT,
 			MOVE_THUNDERBOLT,
-			MOVE_HIDDEN_POWER_[ICE],
+			MOVE_HIDDEN_POWER,
 			MOVE_SURF,
 		},
 	},
@@ -107444,7 +107444,7 @@ static struct RoguePokemonCompetitiveSet const sCompetitiveSets_SPECIES_PIKACHU_
 		{
 			MOVE_FAKE_OUT,
 			MOVE_THUNDERBOLT,
-			MOVE_HIDDEN_POWER_[ICE],
+			MOVE_HIDDEN_POWER,
 			MOVE_SURF,
 		},
 	},
@@ -107555,7 +107555,7 @@ static struct RoguePokemonCompetitiveSet const sCompetitiveSets_SPECIES_PIKACHU_
 		{
 			MOVE_FAKE_OUT,
 			MOVE_THUNDERBOLT,
-			MOVE_HIDDEN_POWER_[ICE],
+			MOVE_HIDDEN_POWER,
 			MOVE_SURF,
 		},
 	},
@@ -107666,7 +107666,7 @@ static struct RoguePokemonCompetitiveSet const sCompetitiveSets_SPECIES_PIKACHU_
 		{
 			MOVE_FAKE_OUT,
 			MOVE_THUNDERBOLT,
-			MOVE_HIDDEN_POWER_[ICE],
+			MOVE_HIDDEN_POWER,
 			MOVE_SURF,
 		},
 	},
@@ -107777,7 +107777,7 @@ static struct RoguePokemonCompetitiveSet const sCompetitiveSets_SPECIES_PIKACHU_
 		{
 			MOVE_FAKE_OUT,
 			MOVE_THUNDERBOLT,
-			MOVE_HIDDEN_POWER_[ICE],
+			MOVE_HIDDEN_POWER,
 			MOVE_SURF,
 		},
 	},
@@ -107888,7 +107888,7 @@ static struct RoguePokemonCompetitiveSet const sCompetitiveSets_SPECIES_PIKACHU_
 		{
 			MOVE_FAKE_OUT,
 			MOVE_THUNDERBOLT,
-			MOVE_HIDDEN_POWER_[ICE],
+			MOVE_HIDDEN_POWER,
 			MOVE_SURF,
 		},
 	},
@@ -107999,7 +107999,7 @@ static struct RoguePokemonCompetitiveSet const sCompetitiveSets_SPECIES_PIKACHU_
 		{
 			MOVE_FAKE_OUT,
 			MOVE_THUNDERBOLT,
-			MOVE_HIDDEN_POWER_[ICE],
+			MOVE_HIDDEN_POWER,
 			MOVE_SURF,
 		},
 	},
@@ -108110,7 +108110,7 @@ static struct RoguePokemonCompetitiveSet const sCompetitiveSets_SPECIES_PIKACHU_
 		{
 			MOVE_FAKE_OUT,
 			MOVE_THUNDERBOLT,
-			MOVE_HIDDEN_POWER_[ICE],
+			MOVE_HIDDEN_POWER,
 			MOVE_SURF,
 		},
 	},
@@ -108221,7 +108221,7 @@ static struct RoguePokemonCompetitiveSet const sCompetitiveSets_SPECIES_PIKACHU_
 		{
 			MOVE_FAKE_OUT,
 			MOVE_THUNDERBOLT,
-			MOVE_HIDDEN_POWER_[ICE],
+			MOVE_HIDDEN_POWER,
 			MOVE_SURF,
 		},
 	},
@@ -108332,7 +108332,7 @@ static struct RoguePokemonCompetitiveSet const sCompetitiveSets_SPECIES_PIKACHU_
 		{
 			MOVE_FAKE_OUT,
 			MOVE_THUNDERBOLT,
-			MOVE_HIDDEN_POWER_[ICE],
+			MOVE_HIDDEN_POWER,
 			MOVE_SURF,
 		},
 	},
@@ -108443,7 +108443,7 @@ static struct RoguePokemonCompetitiveSet const sCompetitiveSets_SPECIES_PIKACHU_
 		{
 			MOVE_FAKE_OUT,
 			MOVE_THUNDERBOLT,
-			MOVE_HIDDEN_POWER_[ICE],
+			MOVE_HIDDEN_POWER,
 			MOVE_SURF,
 		},
 	},
@@ -108554,7 +108554,7 @@ static struct RoguePokemonCompetitiveSet const sCompetitiveSets_SPECIES_PIKACHU_
 		{
 			MOVE_FAKE_OUT,
 			MOVE_THUNDERBOLT,
-			MOVE_HIDDEN_POWER_[ICE],
+			MOVE_HIDDEN_POWER,
 			MOVE_SURF,
 		},
 	},
@@ -108665,7 +108665,7 @@ static struct RoguePokemonCompetitiveSet const sCompetitiveSets_SPECIES_PIKACHU_
 		{
 			MOVE_FAKE_OUT,
 			MOVE_THUNDERBOLT,
-			MOVE_HIDDEN_POWER_[ICE],
+			MOVE_HIDDEN_POWER,
 			MOVE_SURF,
 		},
 	},
@@ -108776,7 +108776,7 @@ static struct RoguePokemonCompetitiveSet const sCompetitiveSets_SPECIES_PIKACHU_
 		{
 			MOVE_FAKE_OUT,
 			MOVE_THUNDERBOLT,
-			MOVE_HIDDEN_POWER_[ICE],
+			MOVE_HIDDEN_POWER,
 			MOVE_SURF,
 		},
 	},
@@ -108873,7 +108873,7 @@ static struct RoguePokemonCompetitiveSet const sCompetitiveSets_SPECIES_PICHU_SP
 		{
 			MOVE_FAKE_OUT,
 			MOVE_THUNDERBOLT,
-			MOVE_HIDDEN_POWER_[ICE],
+			MOVE_HIDDEN_POWER,
 			MOVE_SURF,
 		},
 	},
